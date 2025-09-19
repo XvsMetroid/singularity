@@ -18,6 +18,7 @@ These are the canonical, immutable documents - the "source of truth" for The Axi
 - **02_The_Saying_Log.md**: Aphorisms and distilled wisdom.
 - **03_Glossary_of_Terms.md**: Comprehensive glossary for newcomers.
 - **04_Core_Metaphors.md**: Key analogies and metaphors for understanding the system.
+- **framework-as-blueprint.md**: Complete blueprint for anti-fragile societies.
 
 ## Published Research (04_RESEARCH/Published_Articles/)
 
@@ -28,6 +29,8 @@ Completed philosophical explorations and formal articles:
 - **the-sovereign-triad-a-briefing-on-a.md**: Briefing on the Sovereign Triad framework.
 - **how-to-fix-a-broken-world-5-revelat.md**: Five revelations for fixing a broken world.
 - **profile-of-a-synthesizing-intellect.md**: Profile and analysis of synthesizing intellects.
+- **analysis-of-sovereign-triad.md**: Academic analysis of anti-fragile social architectures.
+- **abstract.md**: Research proposal and collaboration framework.
 
 ## Research Explorations (04_RESEARCH/Explorations/)
 
@@ -35,6 +38,13 @@ Ongoing investigations and experimental concepts:
 
 - **a-compass-for-life-an-introduction.md**: Introduction to the philosophical compass for life.
 - **the-mechanic-who-reverse-engineered.md**: Story exploring reverse engineering concepts.
+- **cognitive-methodologies.md**: Taxonomy of thinking methods and cognitive frameworks.
+- **book-of-the-triad.md**: Genesis and development story of the framework.
+- **worthy-of-study.md**: Additional philosophical explorations and insights.
+- **the-anti-entropy-axiom-engine.md**: Concepts on countering systemic entropy.
+- **the-axiom-engine.md**: Core engine mechanics and theory.
+- **higher-dimensional-shape.md**: Advanced conceptual modeling.
+- **sovereign-triad-simplicity.md**: Simplified explanations of core concepts.
 
 ## Supporting Documents (docs/)
 
@@ -49,7 +59,6 @@ Current working documents and AI guidance:
 - **Case Studies** (`/case-studies/`): Evidence and analysis files
 - **Resources** (`/05_RESOURCES/`): Onboarding guides and reference materials
 - **Community** (`/06_COMMUNITY/`): Collaboration and discussion space
-- **Archive** (`/archive/`): Outdated, redundant, or unrelated files (including .docx versions)
 
 ## Machine-Readable Framework
 
