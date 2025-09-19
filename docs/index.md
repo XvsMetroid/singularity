@@ -1,8 +1,17 @@
+
 # Documentation Index
 
-This file provides a table of contents and brief descriptions for each document in the `docs/` folder. For clarity, all documentation and conceptual files have been moved here and renamed using kebab-case for consistency.
+This index provides a map of the core philosophical documents and supporting materials for the Axiom Engine / Sovereign Triad project.
 
-## Table of Contents
+## Canonical Documents
+
+- **00_The_Constitution.md**: The master constitution for an adaptive humanity.
+- **01_The_Genesis_and_Cognitive_Methodology.md**: Origins and cognitive methodology of the framework.
+- **02_The_Saying_Log.md**: Aphorisms and distilled wisdom.
+- **03_Glossary_of_Terms.md**: Comprehensive glossary for newcomers.
+- **04_Core_Metaphors.md**: Key analogies and metaphors for understanding the system.
+
+## Supporting Documents
 
 - **A-Compass-for-Life-An-Introduction.md**: Introduction to the philosophical compass for life.
 - **A-global-collective.docx**: Discussion on global collective concepts.
@@ -36,5 +45,11 @@ This file provides a table of contents and brief descriptions for each document 
 - **the-antitisis-of-self-annihilation.docx**: Philosophical notes on self-annihilation.
 - **when-asked-on-cognitive-methods.docx**: Notes on cognitive methods.
 - **worthy-of-study.docx**: Topics worthy of further study.
+
+## Navigation
+
+For proposals and application blueprints, see the `/proposals/` folder.
+For case studies and analyses, see the `/case-studies/` folder.
+For community discussions, see the `/community/` folder.
 
 For more details, open each file directly in the `docs/` folder.
