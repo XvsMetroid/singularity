@@ -53,6 +53,14 @@ Current working documents and AI guidance:
 - **AI-guide.md**: Guidelines for AI agents working with the framework.
 - **index.md**: This documentation map.
 
+## Resource Materials (05_RESOURCES/)
+
+Onboarding guides and reference materials for understanding and engaging with the framework:
+
+- **ONBOARDING.md**: Step-by-step guide for newcomers to understand the project.
+- **FAQ.md**: Frequently asked questions about the project and how to contribute.
+- **Framework_Concerns_and_Solutions.md**: Detailed responses to common concerns and technical challenges about the framework.
+
 ## Other Resources
 
 - **Proposals** (`/proposals/`): Application blueprints and frameworks
@@ -64,7 +72,6 @@ Current working documents and AI guidance:
 
 - **CHANGELOG.md**: A log of all notable changes to the project.
 - **CONTRIBUTING.md**: Guidelines for how to contribute to the project.
-- **FAQ.md**: Answers to frequently asked questions about the project.
 
 ## Machine-Readable Framework
 
