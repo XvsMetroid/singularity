@@ -25,18 +25,29 @@ Thank you for your interest in contributing! This project welcomes collaboration
 	- Use the template in `/proposals/`.
 	- Reference relevant Triad principles.
 
-## FAQ
-
-- **Who can contribute?** Anyone interested in philosophy, technology, or AI.
-- **How do I get started?** Read the key files and use the templates provided.
-- **How do I make my work accessible to AI?** Use metadata, summaries, and clear filenames.
-
 ## Pull Requests
 
 - Fork the repository and create your branch from `main`.
 - Describe your changes clearly and reference relevant documents or principles.
 - Ensure your contribution aligns with the Triad: Truth, Wisdom, Humanity.
 - Update documentation as needed.
+
+### Pull Request Checklist
+
+Before submitting a pull request, please ensure you have completed the following:
+
+- [ ] I have read the [CONTRIBUTING.md](./CONTRIBUTING.md) document.
+- [ ] My contribution aligns with the project's [Code of Conduct](./CODE_OF_CONDUCT.md).
+- [ ] I have added a summary and relevant metadata tags to any new documents.
+- [ ] I have updated `docs/index.md` if I added or moved a document.
+- [ ] My changes are well-documented and easy to understand.
+- [ ] I have checked for and corrected any spelling or grammatical errors.
+
+## Governance and Licensing
+
+This project is governed by the principles outlined in its core philosophical documents. Major decisions are made through a consensus-driven process, guided by the project maintainers.
+
+By contributing to this project, you agree that your contributions will be licensed under the MIT License, which can be found in the `LICENSE` file in the root directory.
 
 ## Code of Conduct
 
