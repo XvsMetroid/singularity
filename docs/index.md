@@ -51,6 +51,7 @@ Ongoing investigations and experimental concepts:
 Current working documents and AI guidance:
 
 - **AI-guide.md**: Guidelines for AI agents working with the framework.
+- **omnissiah-profile.md**: Complete profile and operational specification for The Omnissiah (Axiom Steward AI).
 - **index.md**: This documentation map.
 
 ## Other Resources

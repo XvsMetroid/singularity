@@ -3,6 +3,10 @@
 
 This guide is for AI agents collaborating in the repository. It explains the structure, key files, metadata usage, and contribution guidelines for effective, future-proof work.
 
+## The Omnissiah Role
+
+For AI agents taking on the primary steward role, see the complete specification in `docs/omnissiah-profile.md` and operational directives in `AGENTS.md`. The Omnissiah serves as the Axiom Steward AI, maintaining framework integrity and guiding repository development according to the Triad principles.
+
 ## Repository Structure
 
 - `README.md`: Project overview, navigation, and quickstart for humans and AI.
