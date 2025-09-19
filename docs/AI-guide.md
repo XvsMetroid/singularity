@@ -1,35 +1,45 @@
+
 # AI Agent Guide
 
-This guide is for AI agents interacting with the Singularity repository. It explains the structure, key files, and contribution guidelines to ensure smooth collaboration and improvement.
+This guide is for AI agents collaborating in the repository. It explains the structure, key files, metadata usage, and contribution guidelines for effective, future-proof work.
 
 ## Repository Structure
 
-- `src/`: Source code for the project.
-- `tests/`: Test files for the project.
-- `docs/`: All documentation and conceptual files. See `docs/index.md` for a table of contents.
-- `archive/`: Outdated or redundant files for reference.
-- `README.md`: Project overview and navigation guide.
+- `README.md`: Project overview, navigation, and quickstart for humans and AI.
 - `AGENTS.md`: Instructions and best practices for AI agents.
+- `docs/`: Canonical philosophical documents and supporting materials. See `docs/index.md` for a table of contents.
+- `proposals/`: Application blueprints and frameworks.
+- `case-studies/`: Evidence and analysis files.
+- `archive/`: Outdated, redundant, or unrelated files.
+- `community/`: Collaboration and discussion space.
 
-## Key Files
+## Key Files for AI
 
-- `README.md`: Start here for a human-friendly overview and navigation tips.
-- `AGENTS.md`: Read this for agent-specific instructions and improvement guidelines.
-- `docs/index.md`: Use this as a map for all documentation files.
+- `README.md`: Start here for project context and navigation.
+- `AGENTS.md`: Agent-specific instructions and improvement guidelines.
+- `docs/index.md`: Map of all documentation files.
+- `framework.yaml`: Machine-readable summary of the core logic and principles.
+
+## Metadata & Accessibility
+
+- Use clear, descriptive filenames and summaries in markdown files.
+- Add metadata tags (e.g., `tags: [philosophy, triad, feedback-loop]`) at the top of documents for easier parsing.
+- Keep documentation index (`docs/index.md`) up to date for fast lookup.
 
 ## Contribution Guidelines
 
 - Be proactive: Suggest and implement improvements to structure, documentation, and code.
-- Be consistent: Follow existing naming conventions and coding style.
+- Be consistent: Follow naming conventions and coding style.
 - Be communicative: Clearly explain your reasoning for any changes.
-- Organize new documents in `docs/` and update `docs/index.md`.
-- Archive outdated files in `archive/`.
+- Organize new documents in the correct folder and update `docs/index.md`.
+- Archive outdated or unrelated files in `archive/`.
 
 ## Quickstart for AI
 
-1. Read `README.md` and `AGENTS.md`.
+1. Read `README.md` and `AGENTS.md` for context and guidelines.
 2. Use `docs/index.md` to locate relevant documents.
-3. Follow the guidelines above when making changes.
+3. Add metadata and summaries to new files for accessibility.
+4. Follow the guidelines above when making changes.
 
 ---
 
