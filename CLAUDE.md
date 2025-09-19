@@ -12,10 +12,9 @@ This is **The Axiom Engine** - a philosophical framework development project, no
 - **`04_RESEARCH/`**: Published articles and explorations
 - **`05_RESOURCES/`**: Onboarding guides and reference materials
 - **`06_COMMUNITY/`**: Collaboration and discussion space
-- **`docs/`**: Core philosophical documents and supporting materials
+- **`docs/`**: AI guidance and documentation navigation
 - **`proposals/`**: Application blueprints and frameworks
 - **`case-studies/`**: Evidence and analysis files
-- **`archive/`**: Outdated, redundant, or unrelated files
 
 ## Essential Starting Points
 
@@ -30,7 +29,7 @@ This is **The Axiom Engine** - a philosophical framework development project, no
 - Add metadata tags at document tops (e.g., `tags: [philosophy, triad, feedback-loop]`)
 - Include brief summaries for accessibility
 - Update `docs/index.md` when adding new documents
-- Archive outdated content in `archive/`
+- Remove or refactor outdated content to maintain repository cleanliness
 
 ## Core Principles
 

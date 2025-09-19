@@ -1,3 +1,8 @@
+---
+tags: [cognitive-methodologies, thinking-methods, taxonomy, meta-cognition, problem-solving, triadic-thinking]
+summary: "Comprehensive taxonomy of cognitive methodologies categorized by function: understanding, operating, transforming, and error mitigation."
+---
+
 What kinds of cognitive methodologies are there?
 
 Hmm, the user is asking about cognitive methodologies, which is a broad

@@ -1,3 +1,8 @@
+---
+tags: [aphorisms, wisdom, sayings, philosophy, steward-code, maxims]
+summary: "Collection of aphorisms, maxims, and distilled wisdom that inform the Sovereign Triad framework."
+---
+
 # The Saying Log
 
 Aphorisms, maxims, and distilled wisdom that culminate in the Sovereign Triad framework.

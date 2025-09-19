@@ -1,3 +1,8 @@
+---
+tags: [analysis, sovereign-triad, anti-fragile, social-architectures, philosophy, academic, meta-philosophical]
+summary: "Academic analysis of the Sovereign Triad as a meta-philosophical framework for anti-fragile social systems."
+---
+
 **The Sovereign Triad: A Philosophical Framework for Anti-Fragile Social
 Architectures**
 

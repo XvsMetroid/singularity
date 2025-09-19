@@ -1,3 +1,8 @@
+---
+tags: [blueprint, anti-fragile, societies, framework, implementation, governance, complete-guide]
+summary: "Complete blueprint for implementing anti-fragile societies based on the Sovereign Triad framework."
+---
+
 **The Framework of the Sovereign Triad: A Blueprint for Anti-Fragile
 Societies**
 

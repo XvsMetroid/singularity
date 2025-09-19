@@ -1,18 +1,34 @@
-# Simulated Project Challenge
+---
+tags: [case-study, template, feedback-loop, act-measure-learn-adapt, simulation, contemporary]
+summary: "Template for contemporary case studies demonstrating the Act-Measure-Learn-Adapt feedback loop in practice."
+---
 
-A detailed write-up of a simulated case study (e.g., factory manager dilemma) showing the Act-Measure-Learn-Adapt loop in practice.
+# Simulated Project Challenge (Template)
 
-## Overview
+**Status:** Template for future case studies
 
-[Describe the scenario and objectives.]
+This is a template for documenting case studies that demonstrate the Act-Measure-Learn-Adapt feedback loop in contemporary scenarios.
 
-## Application of the Feedback Loop
+## Template Structure
 
-- Act
-- Measure
-- Learn
-- Adapt
+### Overview
+- **Scenario Description**: [Detailed description of the situation/challenge]
+- **Stakeholders**: [Key parties involved]
+- **Objectives**: [What the case study aims to demonstrate]
+- **Framework Application**: [How Sovereign Triad principles apply]
 
-## Outcome
+### Application of the Feedback Loop
 
-[Results and lessons learned.]
+**Act** → [Initial action taken based on available information]
+**Measure** → [Metrics and data collection methods used]
+**Learn** → [Insights gained from measurement and analysis]
+**Adapt** → [How actions were modified based on learning]
+
+### Outcome
+- **Results**: [Quantitative and qualitative outcomes]
+- **Lessons Learned**: [Key insights for framework application]
+- **Framework Validation**: [How this supports or refines the Triad]
+
+---
+
+*To use this template: Replace bracketed placeholders with actual case study content.*

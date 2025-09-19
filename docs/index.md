@@ -24,10 +24,10 @@ These are the canonical, immutable documents - the "source of truth" for The Axi
 
 Completed philosophical explorations and formal articles:
 
-- **the-axiom-engine-a-philosophical-op.md**: Philosophical overview of The Axiom Engine.
+- **the-axiom-engine-philosophical-overview.md**: Philosophical overview of The Axiom Engine.
 - **the-sovereign-triad-a-philosophical.md**: Philosophical foundation of the Sovereign Triad.
-- **the-sovereign-triad-a-briefing-on-a.md**: Briefing on the Sovereign Triad framework.
-- **how-to-fix-a-broken-world-5-revelat.md**: Five revelations for fixing a broken world.
+- **the-sovereign-triad-briefing.md**: Briefing on the Sovereign Triad framework.
+- **how-to-fix-a-broken-world-5-revelations.md**: Five revelations for fixing a broken world.
 - **profile-of-a-synthesizing-intellect.md**: Profile and analysis of synthesizing intellects.
 - **analysis-of-sovereign-triad.md**: Academic analysis of anti-fragile social architectures.
 - **abstract.md**: Research proposal and collaboration framework.

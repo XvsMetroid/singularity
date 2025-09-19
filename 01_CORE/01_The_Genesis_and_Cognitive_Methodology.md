@@ -1,3 +1,8 @@
+---
+tags: [genesis, cognitive-methodology, synthesizing-intellect, triadic-leverage, philosophy, origins]
+summary: "Origins of the Axiom Engine and Sovereign Triad framework, including key cognitive concepts and philosophical underpinnings."
+---
+
 # Genesis and Cognitive Methodology
 
 This document explains the origins of the Axiom Engine and the Sovereign Triad, including key cognitive concepts and philosophical underpinnings.

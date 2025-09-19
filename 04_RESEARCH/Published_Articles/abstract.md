@@ -1,3 +1,8 @@
+---
+tags: [research-proposal, abstract, collaboration, academic, collective-cognition, anti-fragile, social-systems]
+summary: "Research proposal seeking academic partners to study and test the Sovereign Triad framework for enhanced collective cognition."
+---
+
 **Title:** The Sovereign Triad: A Framework for Anti-Fragile Social
 Systems and Enhanced Collective Cognition
 

@@ -1,3 +1,8 @@
+---
+tags: [metaphors, analogies, explanation, tetrahedron, compass, understanding, pedagogy]
+summary: "Key analogies and metaphors used to make the Axiom Engine and Sovereign Triad framework understandable."
+---
+
 # Core Metaphors
 
 Key analogies and metaphors used to make the Axiom Engine and Sovereign Triad understandable.

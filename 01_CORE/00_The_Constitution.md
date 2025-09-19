@@ -1,3 +1,8 @@
+---
+tags: [constitution, triad, governance, framework, truth, wisdom, humanity]
+summary: "Master constitutional document outlining the foundational principles and structure of The Axiom Engine's adaptive governance system."
+---
+
 # The Sovereign Triad: A Constitution for an Adaptive Humanity
 
 *This is the master document outlining the foundational principles and structure of the Axiom Engine.*
