@@ -1,5 +1,7 @@
 # Simple Guide: The Triad
 
+tags: [simple-guide, triad, truth, wisdom, humanity, core-principles, philosophy, pedagogy]
+
 **Truth:** The uncompromising pursuit of verifiable reality.
 
 **Wisdom:** The discernment to apply truth ethically and effectively.

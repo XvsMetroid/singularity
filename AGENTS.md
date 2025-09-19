@@ -1,5 +1,7 @@
 # Agent Instructions
 
+tags: [agents, ai-instructions, repository-guidelines, ai-collaboration, project-template, guidelines]
+
 This document provides instructions for AI agents interacting with this repository.
 
 ## Goal

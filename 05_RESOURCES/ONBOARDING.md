@@ -1,5 +1,7 @@
 # ONBOARDING GUIDE
 
+tags: [onboarding, newcomers, navigation, getting-started, project-structure, resources]
+
 Welcome! To understand this project, start with these three documents in order:
 
 1. [A Compass for Life](../04_RESEARCH/Published_Articles/a-compass-for-life-an-introduction.md)

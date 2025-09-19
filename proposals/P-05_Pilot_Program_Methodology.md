@@ -1,5 +1,7 @@
 # Pilot Program Methodology
 
+tags: [proposal, pilot-program, methodology, implementation, real-world-testing, feedback-loop, startup, non-profit, application-blueprint]
+
 A step-by-step guide for applying the Axiom Engine framework to a small, real-world organization (e.g., startup, non-profit).
 
 ## Purpose

@@ -59,6 +59,7 @@ Current working documents and AI guidance:
 - **Case Studies** (`/case-studies/`): Evidence and analysis files
 - **Resources** (`/05_RESOURCES/`): Onboarding guides and reference materials
 - **Community** (`/06_COMMUNITY/`): Collaboration and discussion space
+- **Visuals** (`/07_VISUALS/`): Visual assets and diagrams supporting the framework
 
 ## Project Governance and Resources
 

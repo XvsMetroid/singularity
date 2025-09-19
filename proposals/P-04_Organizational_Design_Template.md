@@ -1,5 +1,7 @@
 # Organizational Design Template
 
+tags: [proposal, organizational-design, blueprint, triad, organizational-structure, template, management, application-blueprint]
+
 Blueprint for designing organizations aligned with the Sovereign Triad.
 
 ## Overview

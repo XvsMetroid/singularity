@@ -1,5 +1,7 @@
 # The Axiom Engine: A Philosophical Operating System
 
+tags: [overview, axiom-engine, philosophical-framework, triad, truth, wisdom, humanity, onboarding, project-introduction]
+
 *A generative framework for building societies capable of continuous ethical progression, grounded in Truth, Wisdom, and Humanity.*
 
 ## Elevator Pitch

@@ -12,6 +12,7 @@ This is **The Axiom Engine** - a philosophical framework development project, no
 - **`04_RESEARCH/`**: Published articles and explorations
 - **`05_RESOURCES/`**: Onboarding guides and reference materials
 - **`06_COMMUNITY/`**: Collaboration and discussion space
+- **`07_VISUALS/`**: Visual assets and diagrams supporting the framework
 - **`docs/`**: AI guidance and documentation navigation
 - **`proposals/`**: Application blueprints and frameworks
 - **`case-studies/`**: Evidence and analysis files
