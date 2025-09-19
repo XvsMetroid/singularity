@@ -25,6 +25,7 @@ Thank you for your interest in contributing! This project welcomes collaboration
 	- Use the template in `/proposals/`.
 	- Reference relevant Triad principles.
 
+
 ## Pull Requests
 
 - Fork the repository and create your branch from `main`.
@@ -42,6 +43,17 @@ Before submitting a pull request, please ensure you have completed the following
 - [ ] I have updated `docs/index.md` if I added or moved a document.
 - [ ] My changes are well-documented and easy to understand.
 - [ ] I have checked for and corrected any spelling or grammatical errors.
+
+## Contributor Ladder
+
+Contributors can advance through the following stages:
+
+- **Feedback Provider:** Suggest improvements, report issues, or participate in RFCs.
+- **Contributor:** Submit pull requests for guides, research, or case studies.
+- **Steward:** Take responsibility for maintaining a section (e.g., a guide or framework document).
+- **Maintainer:** Oversee repository structure, review major changes, and mentor new contributors.
+
+Progression is based on quality, consistency, and engagement. Stewards and maintainers are nominated by consensus.
 
 ## Governance and Licensing
 
