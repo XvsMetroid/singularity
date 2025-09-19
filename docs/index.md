@@ -60,6 +60,12 @@ Current working documents and AI guidance:
 - **Resources** (`/05_RESOURCES/`): Onboarding guides and reference materials
 - **Community** (`/06_COMMUNITY/`): Collaboration and discussion space
 
+## Project Governance and Resources
+
+- **CHANGELOG.md**: A log of all notable changes to the project.
+- **CONTRIBUTING.md**: Guidelines for how to contribute to the project.
+- **FAQ.md**: Answers to frequently asked questions about the project.
+
 ## Machine-Readable Framework
 
 - **framework.yaml**: Core principles and structure in YAML format
