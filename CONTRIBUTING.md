@@ -27,6 +27,17 @@ Thank you for your interest in contributing! This project welcomes collaboration
 
 ## FAQ
 
+## Contributor Ladder
+
+Contributors can advance through the following stages:
+
+- **Feedback Provider:** Suggest improvements, report issues, or participate in RFCs.
+- **Contributor:** Submit pull requests for guides, research, or case studies.
+- **Steward:** Take responsibility for maintaining a section (e.g., a guide or framework document).
+- **Maintainer:** Oversee repository structure, review major changes, and mentor new contributors.
+
+Progression is based on quality, consistency, and engagement. Stewards and maintainers are nominated by consensus.
+
 - **Who can contribute?** Anyone interested in philosophy, technology, or AI.
 - **How do I get started?** Read the key files and use the templates provided.
 - **How do I make my work accessible to AI?** Use metadata, summaries, and clear filenames.
