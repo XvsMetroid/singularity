@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Axiom Engine - A Framework for Adaptive Governance</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.7;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.98);
+            box-shadow: 0 0 50px rgba(0,0,0,0.1);
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px 40px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: repeating-linear-gradient(
+                45deg,
+                transparent,
+                transparent 10px,
+                rgba(255,255,255,0.03) 10px,
+                rgba(255,255,255,0.03) 20px
+            );
+        }
+
+        h1 {
+            font-size: 2.8em;
+            font-weight: 300;
+            margin-bottom: 15px;
+            position: relative;
+            z-index: 1;
+            letter-spacing: -1px;
+        }
+
+        .tagline {
+            font-size: 1.2em;
+            opacity: 0.95;
+            position: relative;
+            z-index: 1;
+            font-weight: 300;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .section {
+            background: white;
+            border-radius: 8px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            transition: transform 0.2s ease;
+        }
+
+        .section:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.12);
+        }
+
+        h2 {
+            color: #667eea;
+            font-size: 1.8em;
+            margin-bottom: 25px;
+            font-weight: 400;
+            border-bottom: 2px solid #f0f4ff;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: #2c3e50;
+            font-size: 1.3em;
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+
+        .triad {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin: 35px 0;
+        }
+
+        .principle {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 35px 30px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .principle::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            background: rgba(255,255,255,0.1);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+
+        .principle:hover::before {
+            width: 400px;
+            height: 400px;
+        }
+
+        .principle:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+        }
+
+        .principle h3 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            font-weight: 400;
+            color: white;
+            position: relative;
+            z-index: 1;
+        }
+
+        .principle p {
+            font-size: 1.05em;
+            line-height: 1.6;
+            position: relative;
+            z-index: 1;
+            opacity: 0.95;
+        }
+
+        .insight-box {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 4px;
+        }
+
+        .insight-box h4 {
+            color: #667eea;
+            margin-bottom: 12px;
+            font-weight: 500;
+        }
+
+        .feedback-loop {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: 40px 0;
+            padding: 40px;
+            background: linear-gradient(to right, #f8f9fa, #ffffff);
+            border-radius: 8px;
+        }
+
+        .loop-step {
+            background: white;
+            border: 2px solid #667eea;
+            border-radius: 50%;
+            width: 130px;
+            height: 130px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-weight: 500;
+            color: #667eea;
+            position: relative;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .loop-step:hover {
+            background: #667eea;
+            color: white;
+            transform: scale(1.1);
+        }
+
+        .loop-step .label {
+            font-size: 1.1em;
+            margin-top: 8px;
+        }
+
+        .loop-step .icon {
+            font-size: 2em;
+            margin-bottom: 5px;
+        }
+
+        .arrow {
+            font-size: 1.8em;
+            color: #667eea;
+            opacity: 0.6;
+        }
+
+        .case-study {
+            background: #f0f4ff;
+            padding: 35px;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+
+        .implementation-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin: 30px 0;
+        }
+
+        .implementation-step {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+        }
+
+        .implementation-step h4 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+
+        button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 28px;
+            border-radius: 4px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin: 5px;
+            font-weight: 500;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        .result {
+            margin-top: 25px;
+            padding: 25px;
+            background: white;
+            border-radius: 8px;
+            display: none;
+            border: 1px solid #e0e0e0;
+        }
+
+        .result.show {
+            display: block;
+            animation: fadeIn 0.5s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .diagram-container {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .triangle-system {
+            display: inline-block;
+            position: relative;
+            width: 300px;
+            height: 260px;
+        }
+
+        .triangle-line {
+            position: absolute;
+            background: #667eea;
+            height: 2px;
+            transform-origin: left center;
+        }
+
+        .triangle-line:nth-child(1) {
+            width: 260px;
+            top: 225px;
+            left: 20px;
+        }
+
+        .triangle-line:nth-child(2) {
+            width: 260px;
+            top: 225px;
+            left: 20px;
+            transform: rotate(-60deg);
+        }
+
+        .triangle-line:nth-child(3) {
+            width: 260px;
+            top: 225px;
+            right: 20px;
+            transform: rotate(60deg);
+            transform-origin: right center;
+        }
+
+        .vertex {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            background: white;
+            border: 3px solid #667eea;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 500;
+            color: #667eea;
+            z-index: 2;
+        }
+
+        .vertex:nth-child(4) {
+            top: -10px;
+            left: 110px;
+        }
+
+        .vertex:nth-child(5) {
+            bottom: -10px;
+            left: -10px;
+        }
+
+        .vertex:nth-child(6) {
+            bottom: -10px;
+            right: -10px;
+        }
+
+        .applications {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+            margin: 35px 0;
+        }
+
+        .app-card {
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 25px;
+            transition: all 0.3s ease;
+        }
+
+        .app-card:hover {
+            border-color: #667eea;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+        }
+
+        .app-card h4 {
+            color: #667eea;
+            margin-bottom: 12px;
+        }
+
+        .metrics-table {
+            width: 100%;
+            margin: 25px 0;
+            border-collapse: collapse;
+        }
+
+        .metrics-table th,
+        .metrics-table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .metrics-table th {
+            background: #f8f9fa;
+            font-weight: 500;
+            color: #667eea;
+        }
+
+        .metrics-table tr:hover {
+            background: #f8f9fa;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            background: #2c3e50;
+            color: white;
+            border-radius: 8px;
+            margin-top: 50px;
+        }
+
+        .footer-quote {
+            font-size: 1.3em;
+            margin-bottom: 20px;
+            font-style: italic;
+            opacity: 0.9;
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2em; }
+            .implementation-grid { grid-template-columns: 1fr; }
+            .loop-step { width: 100px; height: 100px; }
+            .principle { padding: 25px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>The Axiom Engine</h1>
+            <p class="tagline">A philosophical framework for building adaptive, ethical systems that continuously improve through principled decision-making</p>
+        </header>
+
+        <section class="section">
+            <h2>Executive Summary</h2>
+            <p>The Axiom Engine is a comprehensive governance framework designed to address the fundamental challenge of social entropy—the natural tendency of human systems to degrade toward corruption, inefficiency, and ethical compromise. By establishing three immutable principles and implementing continuous feedback mechanisms, it creates organizations capable of sustained ethical progression.</p>
+            
+            <div class="insight-box">
+                <h4>Core Innovation</h4>
+                <p>Unlike traditional governance models that rely on static rules and hierarchical authority, the Axiom Engine employs a dynamic, self-correcting architecture that adapts to changing conditions while maintaining ethical integrity. Think of it as creating a constitutional framework that evolves intelligently rather than requiring revolutionary overthrow when it becomes obsolete.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>The Sovereign Triad: Foundational Principles</h2>
+            <p>At its core, the Axiom Engine operates on three interconnected principles that form what we call the Sovereign Triad. These aren't just values—they're operational requirements that must be present in every decision and action.</p>
+            
+            <div class="triad">
+                <div class="principle" onclick="expandPrinciple('truth')">
+                    <h3>Truth</h3>
+                    <p>The uncompromising pursuit of verifiable reality. This means building systems on empirical evidence, transparent data, and honest assessment—even when the truth is uncomfortable or challenges existing power structures.</p>
+                </div>
+                <div class="principle" onclick="expandPrinciple('wisdom')">
+                    <h3>Wisdom</h3>
+                    <p>The discernment to apply truth ethically and effectively. Wisdom bridges the gap between knowing what is true and understanding what should be done about it, considering long-term consequences and systemic effects.</p>
+                </div>
+                <div class="principle" onclick="expandPrinciple('humanity')">
+                    <h3>Humanity</h3>
+                    <p>The requirement that all actions serve human dignity, agency, and flourishing. Every decision must enhance rather than diminish human potential, protecting individual sovereignty while fostering collective wellbeing.</p>
+                </div>
+            </div>
+            
+            <div class="diagram-container">
+                <p><strong>The Triadic Relationship:</strong> These principles form a self-reinforcing system where each element strengthens the others.</p>
+                <div class="triangle-system">
+                    <div class="triangle-line"></div>
+                    <div class="triangle-line"></div>
+                    <div class="triangle-line"></div>
+                    <div class="vertex">Truth</div>
+                    <div class="vertex">Wisdom</div>
+                    <div class="vertex">Humanity</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>The Adaptive Feedback Loop</h2>
+            <p>The engine's power comes from its continuous improvement cycle. Rather than creating rigid bureaucracies, it implements a four-phase feedback loop that ensures constant adaptation and learning:</p>
+            
+            <div class="feedback-loop">
+                <div class="loop-step">
+                    <div class="icon">→</div>
+                    <div class="label">ACT</div>
+                </div>
+                <div class="arrow">→</div>
+                <div class="loop-step">
+                    <div class="icon">📊</div>
+                    <div class="label">MEASURE</div>
+                </div>
+                <div class="arrow">→</div>
+                <div class="loop-step">
+                    <div class="icon">🔍</div>
+                    <div class="label">LEARN</div>
+                </div>
+                <div class="arrow">→</div>
+                <div class="loop-step">
+                    <div class="icon">⚡</div>
+                    <div class="label">ADAPT</div>
+                </div>
+            </div>
+
+            <div class="case-study">
+                <h3>Case Study: Municipal Resource Allocation</h3>
+                <p>Consider how a city government might apply this framework to budget allocation:</p>
+                
+                <div class="implementation-grid">
+                    <div class="implementation-step">
+                        <h4>1. Act Phase</h4>
+                        <p>The city implements a new budget based on community needs assessment, allocating resources to education, infrastructure, and public safety according to data-driven priorities.</p>
+                    </div>
+                    <div class="implementation-step">
+                        <h4>2. Measure Phase</h4>
+                        <p>Comprehensive metrics track actual outcomes: graduation rates, infrastructure quality scores, crime statistics, and citizen satisfaction surveys provide quantitative feedback.</p>
+                    </div>
+                    <div class="implementation-step">
+                        <h4>3. Learn Phase</h4>
+                        <p>Analysis reveals that infrastructure investment in certain districts yielded higher returns than expected, while some educational programs underperformed despite funding increases.</p>
+                    </div>
+                    <div class="implementation-step">
+                        <h4>4. Adapt Phase</h4>
+                        <p>The next budget cycle incorporates these insights, shifting resources toward proven infrastructure strategies while redesigning educational interventions based on successful models from other districts.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Interactive Analysis Tool</h2>
+            <div class="case-study">
+                <h3>Evaluate Any Decision Through The Axiom Engine</h3>
+                <p><strong>Scenario:</strong> A technology company must decide whether to implement an AI system that could improve efficiency but might eliminate jobs.</p>
+                
+                <p>Click each analysis to see how the Axiom Engine would approach this challenge:</p>
+                
+                <button onclick="analyzeScenario('truth')">Truth Analysis</button>
+                <button onclick="analyzeScenario('wisdom')">Wisdom Analysis</button>
+                <button onclick="analyzeScenario('humanity')">Humanity Analysis</button>
+                <button onclick="analyzeScenario('integrated')">Integrated Solution</button>
+                
+                <div id="analysisResult" class="result"></div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>The Meta-Monitor: Preventing System Corruption</h2>
+            <p>Every system is vulnerable to corruption and drift from its founding principles. The Axiom Engine addresses this through the Meta-Monitor—a second-order process that audits the system itself.</p>
+            
+            <table class="metrics-table">
+                <thead>
+                    <tr>
+                        <th>Monitoring Domain</th>
+                        <th>Key Indicators</th>
+                        <th>Intervention Triggers</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Principle Alignment</td>
+                        <td>Decision audit scores, stakeholder feedback, outcome tracking</td>
+                        <td>Deviation beyond acceptable variance</td>
+                    </tr>
+                    <tr>
+                        <td>Power Distribution</td>
+                        <td>Authority concentration metrics, decision participation rates</td>
+                        <td>Centralization above threshold</td>
+                    </tr>
+                    <tr>
+                        <td>Information Integrity</td>
+                        <td>Data transparency scores, verification rates, dissent tracking</td>
+                        <td>Information suppression patterns</td>
+                    </tr>
+                    <tr>
+                        <td>Adaptive Capacity</td>
+                        <td>Change implementation speed, learning cycle completion</td>
+                        <td>Systemic rigidity indicators</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="insight-box">
+                <h4>Critical Design Feature</h4>
+                <p>The Meta-Monitor operates independently of the primary governance structure, preventing those in power from disabling oversight of their own actions. This creates a constitutional check that cannot be easily circumvented.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Real-World Applications</h2>
+            <p>The Axiom Engine's principles can be applied across diverse contexts, from small organizations to global governance structures:</p>
+            
+            <div class="applications">
+                <div class="app-card">
+                    <h4>Corporate Governance</h4>
+                    <p>Transform traditional hierarchies into adaptive organizations that balance stakeholder interests while maintaining operational efficiency and ethical standards.</p>
+                </div>
+                <div class="app-card">
+                    <h4>AI Ethics Frameworks</h4>
+                    <p>Establish dynamic guardrails for artificial intelligence development that evolve with technological capabilities while protecting human agency and dignity.</p>
+                </div>
+                <div class="app-card">
+                    <h4>Educational Systems</h4>
+                    <p>Create learning environments that adapt to student needs while maintaining rigorous standards and preparing individuals for meaningful participation in society.</p>
+                </div>
+                <div class="app-card">
+                    <h4>Healthcare Networks</h4>
+                    <p>Build medical systems that balance resource constraints with patient care, using continuous feedback to improve outcomes while respecting human dignity.</p>
+                </div>
+                <div class="app-card">
+                    <h4>Urban Planning</h4>
+                    <p>Design cities that evolve based on resident needs and environmental constraints, creating sustainable, livable spaces through iterative improvement.</p>
+                </div>
+                <div class="app-card">
+                    <h4>International Cooperation</h4>
+                    <p>Restructure global governance to address planetary challenges while respecting sovereignty and cultural diversity through principled negotiation.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Implementation Roadmap</h2>
+            <p>Adopting the Axiom Engine doesn't require revolutionary change. Organizations can begin with incremental implementation:</p>
+            
+            <div class="implementation-grid">
+                <div class="implementation-step">
+                    <h4>Phase 1: Assessment</h4>
+                    <p>Evaluate current systems against the Sovereign Triad principles. Identify gaps between stated values and operational reality. Establish baseline metrics for truth, wisdom, and humanity indicators.</p>
+                </div>
+                <div class="implementation-step">
+                    <h4>Phase 2: Pilot Programs</h4>
+                    <p>Implement the feedback loop in specific departments or projects. Test measurement systems and adaptation mechanisms. Document lessons learned and refine processes.</p>
+                </div>
+                <div class="implementation-step">
+                    <h4>Phase 3: Scaling</h4>
+                    <p>Expand successful pilots across the organization. Establish Meta-Monitor functions. Build cultural acceptance through demonstrated improvements and inclusive participation.</p>
+                </div>
+                <div class="implementation-step">
+                    <h4>Phase 4: Full Integration</h4>
+                    <p>Embed Axiom Engine principles in constitutional documents. Create permanent feedback mechanisms. Establish independent oversight structures that ensure long-term adherence.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Addressing Common Concerns</h2>
+            
+            <div class="insight-box">
+                <h4>Won't this create paralysis through endless analysis?</h4>
+                <p>No. The feedback loop operates on defined cycles with clear decision points. The system emphasizes action and learning over perfect planning. Wisdom includes knowing when you have enough information to act.</p>
+            </div>
+
+            <div class="insight-box">
+                <h4>How do you measure abstract concepts like wisdom and humanity?</h4>
+                <p>Through concrete indicators: decision outcome tracking, stakeholder impact assessments, long-term consequence analysis, and dignity preservation metrics. The key is transparency in measurement methodology and continuous refinement of indicators.</p>
+            </div>
+
+            <div class="insight-box">
+                <h4>What prevents powerful actors from gaming the system?</h4>
+                <p>The Meta-Monitor's independence, transparency requirements, and the triangulation of the three principles create multiple checkpoints. When truth, wisdom, and humanity must all be satisfied, manipulation becomes exponentially more difficult.</p>
+            </div>
+        </section>
+
+        <footer>
+            <p class="footer-quote">"Thou shalt not infringe"</p>
+            <p>The Axiom Engine represents humanity's next step in governance evolution—systems that learn, adapt, and improve while maintaining unwavering ethical standards. It's not about creating perfect institutions, but perfectible ones.</p>
+            <p style="margin-top: 25px; opacity: 0.8;">For detailed implementation guides and community resources, visit the project repository.</p>
+            
+            <div style="text-align: center; padding: 20px;">
+                <a href="/docs" style="color: white; text-decoration: none;">
+                    <button>View Full Documentation</button>
+                </a>
+                <a href="https://github.com/XvsMetroid/singularity" style="color: white; text-decoration: none;">
+                    <button>GitHub Repository</button>
+                </a>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        function expandPrinciple(principle) {
+            const expansions = {
+                'truth': 'Truth in practice means: Open data policies, transparent decision-making processes, empirical validation of claims, protection for whistleblowers, and mechanisms to surface uncomfortable realities. Organizations must build infrastructure for fact-finding and verification, not just rely on good intentions.',
+                'wisdom': 'Wisdom in practice means: Long-term thinking over short-term gains, understanding systemic consequences, learning from history and other contexts, synthesizing diverse perspectives, and knowing the limits of your knowledge. It requires both analytical capability and emotional intelligence.',
+                'humanity': 'Humanity in practice means: Protecting individual agency, ensuring decisions enhance rather than diminish human potential, considering impacts on the most vulnerable, preserving dignity in all interactions, and recognizing that systems exist to serve people, not the reverse.'
+            };
+            alert(expansions[principle]);
+        }
+
+        function analyzeScenario(type) {
+            const result = document.getElementById('analysisResult');
+            const analyses = {
+                'truth': '<h4>Truth Analysis</h4><p><strong>Required Data Points:</strong></p><ul><li>Actual number of jobs at risk vs. jobs created</li><li>Measured efficiency gains with statistical confidence</li><li>Current employee skill transferability assessments</li><li>Industry automation trends and competitive positioning</li><li>Historical outcomes from similar implementations</li></ul><p><strong>Finding:</strong> Gather empirical evidence before making claims about benefits or harms. Transparency with all stakeholders about findings is non-negotiable.</p>',
+                
+                'wisdom': '<h4>Wisdom Analysis</h4><p><strong>Strategic Considerations:</strong></p><ul><li>Long-term sustainability vs. short-term disruption</li><li>Competitive necessity vs. social responsibility balance</li><li>Investment in retraining vs. replacement costs</li><li>Brand reputation and stakeholder trust implications</li><li>Precedent setting for industry practices</li></ul><p><strong>Finding:</strong> Consider phased implementation that allows adaptation and learning. The wisest path often involves creative solutions that transcend binary choices.</p>',
+                
+                'humanity': '<h4>Humanity Analysis</h4><p><strong>Human Impact Assessment:</strong></p><ul><li>Individual dignity preservation for affected workers</li><li>Community economic impacts beyond direct employment</li><li>Psychological effects on remaining workforce</li><li>Opportunity creation vs. opportunity destruction</li><li>Equitable distribution of automation benefits</li></ul><p><strong>Finding:</strong> Any implementation must include robust support systems for displaced workers and mechanisms to share productivity gains broadly.</p>',
+                
+                'integrated': '<h4>Integrated Axiom Engine Solution</h4><p><strong>Recommended Approach:</strong></p><p>1. <strong>Transparent Assessment Phase:</strong> Conduct open analysis of automation potential, sharing findings with all stakeholders including workers, shareholders, and community.</p><p>2. <strong>Collaborative Design:</strong> Involve workers in designing the implementation, identifying roles that benefit from AI augmentation rather than replacement.</p><p>3. <strong>Phased Implementation with Guarantees:</strong><br>• No involuntary terminations for 18 months<br>• Comprehensive retraining programs with full salary<br>• Profit-sharing from efficiency gains<br>• New role creation in AI oversight and management</p><p>4. <strong>Continuous Monitoring:</strong> Track impacts on workers, productivity, and community wellbeing with quarterly adjustments based on data.</p><p>5. <strong>Success Metrics:</strong><br>• Efficiency gains: Target 30% improvement<br>• Worker satisfaction: Maintain or improve<br>• New opportunities created: 1.5x displaced roles<br>• Community economic health: Positive trend</p><p><strong>This solution satisfies all three principles:</strong> Truth through transparency, Wisdom through thoughtful implementation, and Humanity through dignity preservation and opportunity creation.</p>'
+            };
+            
+            result.innerHTML = analyses[type];
+            result.classList.add('show');
+            result.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+    </script>
+</body>
+</html>
