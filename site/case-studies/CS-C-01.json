@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "title": "Simulated Project Challenge (Template)",
+    "summary": "Template for contemporary case studies demonstrating the Act-Measure-Learn-Adapt feedback loop in practice.",
+    "tags": ["case-study", "template", "feedback-loop", "act-measure-learn-adapt", "simulation", "contemporary"],
+    "learning_path": "feedback-loop",
+    "type": "case-study"
+  },
+  "structure": [
+    {
+      "section": "Overview",
+      "elements": [
+        {
+          "type": "description",
+          "content": "Detailed description of the situation/challenge"
+        },
+        {
+          "type": "stakeholders",
+          "content": "Key parties involved"
+        },
+        {
+          "type": "objectives",
+          "content": "What the case study aims to demonstrate"
+        },
+        {
+          "type": "framework_application",
+          "content": "How Sovereign Triad principles apply"
+        }
+      ]
+    },
+    {
+      "section": "Application of the Feedback Loop",
+      "elements": [
+        {
+          "type": "act",
+          "content": "Initial action taken based on available information",
+          "interactive": {
+            "type": "input",
+            "prompt": "What action would you take in this scenario?",
+            "expected_response": "TEXT"
+          }
+        },
+        {
+          "type": "measure",
+          "content": "Metrics and data collection methods used",
+          "interactive": {
+            "type": "input",
+            "prompt": "How would you measure the impact of your action?",
+            "expected_response": "METRICS"
+          }
+        },
+        {
+          "type": "learn",
+          "content": "Insights gained from measurement and analysis",
+          "interactive": {
+            "type": "input",
+            "prompt": "What did you learn from the results?",
+            "expected_response": "TEXT"
+          }
+        },
+        {
+          "type": "adapt",
+          "content": "How actions were modified based on learning",
+          "interactive": {
+            "type": "input",
+            "prompt": "How would you adapt your approach based on what you learned?",
+            "expected_response": "TEXT"
+          }
+        }
+      ]
+    },
+    {
+      "section": "Outcome",
+      "elements": [
+        {
+          "type": "results",
+          "content": "Quantitative and qualitative outcomes"
+        },
+        {
+          "type": "lessons_learned",
+          "content": "Key insights for framework application"
+        },
+        {
+          "type": "framework_validation",
+          "content": "How this supports or refines the Triad"
+        }
+      ]
+    }
+  ]
+}

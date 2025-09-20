@@ -31,6 +31,8 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 
+docs_dir: docs_content
+
 plugins:
   - search
   - tags
