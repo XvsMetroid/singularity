@@ -10,7 +10,7 @@
       
       
       
-        <link rel="canonical" href="https://axiomengine.org/AI-guide/">
+        <link rel="canonical" href="https://axiomengine.org/DEPLOY/">
       
       
       
@@ -20,7 +20,7 @@
     
     
       
-        <title>AI Agent Guide - The Axiom Engine</title>
+        <title>Deployment Guide - Cloudflare Pages - The Axiom Engine</title>
       
     
     
@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#ai-agent-guide" class="md-skip">
+        <a href="#deployment-guide-cloudflare-pages" class="md-skip">
           Skip to content
         </a>
       
@@ -106,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              AI Agent Guide
+              Deployment Guide - Cloudflare Pages
             
           </span>
         </div>
@@ -1779,45 +1779,87 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#repository-structure" class="md-nav__link">
+  <a href="#quick-deploy-to-cloudflare-pages" class="md-nav__link">
     <span class="md-ellipsis">
-      Repository Structure
+      Quick Deploy to Cloudflare Pages
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Quick Deploy to Cloudflare Pages">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-connect-your-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Connect Your Repository
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-configure-build-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Configure Build Settings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-deploy" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Deploy
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#your-site-urls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Your Site URLs
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#key-files-for-ai" class="md-nav__link">
+  <a href="#local-development" class="md-nav__link">
     <span class="md-ellipsis">
-      Key Files for AI
+      Local Development
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#metadata-accessibility" class="md-nav__link">
+  <a href="#automatic-deployments" class="md-nav__link">
     <span class="md-ellipsis">
-      Metadata &amp; Accessibility
+      Automatic Deployments
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#contribution-guidelines" class="md-nav__link">
+  <a href="#custom-domain-optional" class="md-nav__link">
     <span class="md-ellipsis">
-      Contribution Guidelines
+      Custom Domain (Optional)
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#quickstart-for-ai" class="md-nav__link">
+  <a href="#troubleshooting" class="md-nav__link">
     <span class="md-ellipsis">
-      Quickstart for AI
+      Troubleshooting
     </span>
   </a>
   
@@ -1842,48 +1884,56 @@
   
 
 
-<h1 id="ai-agent-guide">AI Agent Guide<a class="headerlink" href="#ai-agent-guide" title="Permanent link">&para;</a></h1>
-<p>This guide is for AI agents collaborating in the repository. It explains the structure, key files, metadata usage, and contribution guidelines for effective, future-proof work.</p>
-<h2 id="repository-structure">Repository Structure<a class="headerlink" href="#repository-structure" title="Permanent link">&para;</a></h2>
-<ul>
-<li><code>README.md</code>: Project overview, navigation, and quickstart for humans and AI.</li>
-<li><code>AGENTS.md</code>: Instructions and best practices for AI agents.</li>
-<li><code>docs/</code>: Canonical philosophical documents and supporting materials. See <code>docs/index.md</code> for a table of contents.</li>
-<li><code>proposals/</code>: Application blueprints and frameworks.</li>
-<li><code>case-studies/</code>: Evidence and analysis files.</li>
-<li><code>archive/</code>: Outdated, redundant, or unrelated files.</li>
-<li><code>community/</code>: Collaboration and discussion space.</li>
-</ul>
-<h2 id="key-files-for-ai">Key Files for AI<a class="headerlink" href="#key-files-for-ai" title="Permanent link">&para;</a></h2>
-<ul>
-<li><code>README.md</code>: Start here for project context and navigation.</li>
-<li><code>AGENTS.md</code>: Agent-specific instructions and improvement guidelines.</li>
-<li><code>docs/index.md</code>: Map of all documentation files.</li>
-<li><code>framework.yaml</code>: Machine-readable summary of the core logic and principles.</li>
-</ul>
-<h2 id="metadata-accessibility">Metadata &amp; Accessibility<a class="headerlink" href="#metadata-accessibility" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Use clear, descriptive filenames and summaries in markdown files.</li>
-<li>Add metadata tags (e.g., <code>tags: [philosophy, triad, feedback-loop]</code>) at the top of documents for easier parsing.</li>
-<li>Keep documentation index (<code>docs/index.md</code>) up to date for fast lookup.</li>
-</ul>
-<h2 id="contribution-guidelines">Contribution Guidelines<a class="headerlink" href="#contribution-guidelines" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Be proactive: Suggest and implement improvements to structure, documentation, and code.</li>
-<li>Be consistent: Follow naming conventions and coding style.</li>
-<li>Be communicative: Clearly explain your reasoning for any changes.</li>
-<li>Organize new documents in the correct folder and update <code>docs/index.md</code>.</li>
-<li>Archive outdated or unrelated files in <code>archive/</code>.</li>
-</ul>
-<h2 id="quickstart-for-ai">Quickstart for AI<a class="headerlink" href="#quickstart-for-ai" title="Permanent link">&para;</a></h2>
+<h1 id="deployment-guide-cloudflare-pages">Deployment Guide - Cloudflare Pages<a class="headerlink" href="#deployment-guide-cloudflare-pages" title="Permanent link">&para;</a></h1>
+<h2 id="quick-deploy-to-cloudflare-pages">Quick Deploy to Cloudflare Pages<a class="headerlink" href="#quick-deploy-to-cloudflare-pages" title="Permanent link">&para;</a></h2>
+<h3 id="1-connect-your-repository">1. Connect Your Repository<a class="headerlink" href="#1-connect-your-repository" title="Permanent link">&para;</a></h3>
 <ol>
-<li>Read <code>README.md</code> and <code>AGENTS.md</code> for context and guidelines.</li>
-<li>Use <code>docs/index.md</code> to locate relevant documents.</li>
-<li>Add metadata and summaries to new files for accessibility.</li>
-<li>Follow the guidelines above when making changes.</li>
+<li>Go to <a href="https://pages.cloudflare.com/">Cloudflare Pages</a></li>
+<li>Click "Create a project"</li>
+<li>Connect to GitHub and select <code>XvsMetroid/singularity</code></li>
 </ol>
-<hr />
-<p>For questions or suggestions, add a note in <code>AGENTS.md</code> or open an issue.</p>
+<h3 id="2-configure-build-settings">2. Configure Build Settings<a class="headerlink" href="#2-configure-build-settings" title="Permanent link">&para;</a></h3>
+<p>Use these exact settings in Cloudflare:</p>
+<ul>
+<li><strong>Build command</strong>: <code>pip install -r requirements.txt &amp;&amp; mkdocs build</code></li>
+<li><strong>Build output directory</strong>: <code>site</code></li>
+<li><strong>Environment variables</strong>:</li>
+<li><code>PYTHON_VERSION</code>: <code>3.11</code></li>
+</ul>
+<h3 id="3-deploy">3. Deploy<a class="headerlink" href="#3-deploy" title="Permanent link">&para;</a></h3>
+<p>Click "Save and Deploy" - your site will be live in ~2 minutes!</p>
+<h2 id="your-site-urls">Your Site URLs<a class="headerlink" href="#your-site-urls" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Production</strong>: <code>https://singularity.pages.dev</code> (or your custom domain)</li>
+<li><strong>Preview</strong>: Each PR gets a unique preview URL</li>
+</ul>
+<h2 id="local-development">Local Development<a class="headerlink" href="#local-development" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c1"># Install dependencies</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="c1"># Run development server</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>mkdocs<span class="w"> </span>serve
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="c1"># Visit http://localhost:8000</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="c1"># Build static site</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>mkdocs<span class="w"> </span>build
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="c1"># Output in site/ directory</span>
+</code></pre></div>
+<h2 id="automatic-deployments">Automatic Deployments<a class="headerlink" href="#automatic-deployments" title="Permanent link">&para;</a></h2>
+<p>Every push to <code>main</code> branch automatically deploys to production.</p>
+<h2 id="custom-domain-optional">Custom Domain (Optional)<a class="headerlink" href="#custom-domain-optional" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Go to your Cloudflare Pages project settings</li>
+<li>Click "Custom domains"</li>
+<li>Add your domain (e.g., <code>axiomengine.org</code>)</li>
+<li>Follow DNS configuration instructions</li>
+</ol>
+<h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permanent link">&para;</a></h2>
+<ul>
+<li>If build fails, check Python version is set to 3.11</li>
+<li>Ensure all markdown files have proper frontmatter</li>
+<li>Check that image paths are relative, not absolute</li>
+</ul>
 
 
 

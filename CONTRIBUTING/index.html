@@ -10,8 +10,10 @@
       
       
       
-        <link rel="canonical" href="https://axiomengine.org/AI-guide/">
+        <link rel="canonical" href="https://axiomengine.org/CONTRIBUTING/">
       
+      
+        <link rel="prev" href="../06_COMMUNITY/RFC/001_Measurement_Problem/">
       
       
       
@@ -20,7 +22,7 @@
     
     
       
-        <title>AI Agent Guide - The Axiom Engine</title>
+        <title>Contributing - The Axiom Engine</title>
       
     
     
@@ -72,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#ai-agent-guide" class="md-skip">
+        <a href="#contributing-to-the-axiom-engine" class="md-skip">
           Skip to content
         </a>
       
@@ -106,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              AI Agent Guide
+              Contributing
             
           </span>
         </div>
@@ -356,10 +358,12 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
+      <li class="md-tabs__item md-tabs__item--active">
         <a href="../docs/index.md" class="md-tabs__link">
           
   
@@ -1635,28 +1639,31 @@
       
   
   
+    
   
   
+  
     
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
         
           
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
-        
-          
-          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
             
   
   
@@ -1669,7 +1676,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
             Documentation
@@ -1726,10 +1733,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../CONTRIBUTING/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Contributing
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1740,6 +1769,95 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-contribute" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to Contribute
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practical-usage-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Practical Usage Examples
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pull-requests" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pull Requests
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pull Requests">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pull-request-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pull Request Checklist
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contributor-ladder" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contributor Ladder
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#governance-and-licensing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Governance and Licensing
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code-of-conduct" class="md-nav__link">
+    <span class="md-ellipsis">
+      Code of Conduct
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1779,45 +1897,69 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#repository-structure" class="md-nav__link">
+  <a href="#how-to-contribute" class="md-nav__link">
     <span class="md-ellipsis">
-      Repository Structure
+      How to Contribute
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#key-files-for-ai" class="md-nav__link">
+  <a href="#practical-usage-examples" class="md-nav__link">
     <span class="md-ellipsis">
-      Key Files for AI
+      Practical Usage Examples
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#metadata-accessibility" class="md-nav__link">
+  <a href="#pull-requests" class="md-nav__link">
     <span class="md-ellipsis">
-      Metadata &amp; Accessibility
+      Pull Requests
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pull Requests">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pull-request-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pull Request Checklist
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contributor-ladder" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contributor Ladder
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#contribution-guidelines" class="md-nav__link">
+  <a href="#governance-and-licensing" class="md-nav__link">
     <span class="md-ellipsis">
-      Contribution Guidelines
+      Governance and Licensing
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#quickstart-for-ai" class="md-nav__link">
+  <a href="#code-of-conduct" class="md-nav__link">
     <span class="md-ellipsis">
-      Quickstart for AI
+      Code of Conduct
     </span>
   </a>
   
@@ -1842,48 +1984,67 @@
   
 
 
-<h1 id="ai-agent-guide">AI Agent Guide<a class="headerlink" href="#ai-agent-guide" title="Permanent link">&para;</a></h1>
-<p>This guide is for AI agents collaborating in the repository. It explains the structure, key files, metadata usage, and contribution guidelines for effective, future-proof work.</p>
-<h2 id="repository-structure">Repository Structure<a class="headerlink" href="#repository-structure" title="Permanent link">&para;</a></h2>
+<h1 id="contributing-to-the-axiom-engine">Contributing to The Axiom Engine<a class="headerlink" href="#contributing-to-the-axiom-engine" title="Permanent link">&para;</a></h1>
+<p>Thank you for your interest in contributing! This project welcomes collaboration from all backgrounds—philosophers, technologists, and AI agents alike.</p>
+<h2 id="how-to-contribute">How to Contribute<a class="headerlink" href="#how-to-contribute" title="Permanent link">&para;</a></h2>
 <ul>
-<li><code>README.md</code>: Project overview, navigation, and quickstart for humans and AI.</li>
-<li><code>AGENTS.md</code>: Instructions and best practices for AI agents.</li>
-<li><code>docs/</code>: Canonical philosophical documents and supporting materials. See <code>docs/index.md</code> for a table of contents.</li>
-<li><code>proposals/</code>: Application blueprints and frameworks.</li>
-<li><code>case-studies/</code>: Evidence and analysis files.</li>
-<li><code>archive/</code>: Outdated, redundant, or unrelated files.</li>
-<li><code>community/</code>: Collaboration and discussion space.</li>
+<li>Read <code>README.md</code> and <code>framework.yaml</code> for project vision and architecture.</li>
+<li>Review guidelines in <code>AGENTS.md</code> and <code>docs/AI-guide.md</code>.</li>
+<li>Use templates in <code>/docs/</code>, <code>/proposals/</code>, and <code>/case-studies/</code> for new content.</li>
+<li>For documentation, follow naming conventions and update <code>docs/index.md</code>.</li>
+<li>Add metadata and summaries to new files for accessibility (see <code>docs/index.md</code>).</li>
+<li>Engage respectfully in <code>/community/</code> discussions.</li>
 </ul>
-<h2 id="key-files-for-ai">Key Files for AI<a class="headerlink" href="#key-files-for-ai" title="Permanent link">&para;</a></h2>
+<h2 id="practical-usage-examples">Practical Usage Examples<a class="headerlink" href="#practical-usage-examples" title="Permanent link">&para;</a></h2>
 <ul>
-<li><code>README.md</code>: Start here for project context and navigation.</li>
-<li><code>AGENTS.md</code>: Agent-specific instructions and improvement guidelines.</li>
-<li><code>docs/index.md</code>: Map of all documentation files.</li>
-<li><code>framework.yaml</code>: Machine-readable summary of the core logic and principles.</li>
+<li><strong>Adding a new philosophical document:</strong><ul>
+<li>Use the template in <code>/docs/</code>.</li>
+<li>Add a summary and metadata tags at the top.</li>
+<li>Update <code>docs/index.md</code>.</li>
 </ul>
-<h2 id="metadata-accessibility">Metadata &amp; Accessibility<a class="headerlink" href="#metadata-accessibility" title="Permanent link">&para;</a></h2>
+</li>
+<li><strong>Submitting a case study:</strong><ul>
+<li>Use the template in <code>/case-studies/</code>.</li>
+<li>Add context and lessons learned.</li>
+</ul>
+</li>
+<li><strong>Proposing a framework or blueprint:</strong><ul>
+<li>Use the template in <code>/proposals/</code>.</li>
+<li>Reference relevant Triad principles.</li>
+</ul>
+</li>
+</ul>
+<h2 id="pull-requests">Pull Requests<a class="headerlink" href="#pull-requests" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Use clear, descriptive filenames and summaries in markdown files.</li>
-<li>Add metadata tags (e.g., <code>tags: [philosophy, triad, feedback-loop]</code>) at the top of documents for easier parsing.</li>
-<li>Keep documentation index (<code>docs/index.md</code>) up to date for fast lookup.</li>
+<li>Fork the repository and create your branch from <code>main</code>.</li>
+<li>Describe your changes clearly and reference relevant documents or principles.</li>
+<li>Ensure your contribution aligns with the Triad: Truth, Wisdom, Humanity.</li>
+<li>Update documentation as needed.</li>
 </ul>
-<h2 id="contribution-guidelines">Contribution Guidelines<a class="headerlink" href="#contribution-guidelines" title="Permanent link">&para;</a></h2>
+<h3 id="pull-request-checklist">Pull Request Checklist<a class="headerlink" href="#pull-request-checklist" title="Permanent link">&para;</a></h3>
+<p>Before submitting a pull request, please ensure you have completed the following:</p>
 <ul>
-<li>Be proactive: Suggest and implement improvements to structure, documentation, and code.</li>
-<li>Be consistent: Follow naming conventions and coding style.</li>
-<li>Be communicative: Clearly explain your reasoning for any changes.</li>
-<li>Organize new documents in the correct folder and update <code>docs/index.md</code>.</li>
-<li>Archive outdated or unrelated files in <code>archive/</code>.</li>
+<li>[ ] I have read the <a href="./">CONTRIBUTING.md</a> document.</li>
+<li>[ ] My contribution aligns with the project's <a href="../CODE_OF_CONDUCT/">Code of Conduct</a>.</li>
+<li>[ ] I have added a summary and relevant metadata tags to any new documents.</li>
+<li>[ ] I have updated <code>docs/index.md</code> if I added or moved a document.</li>
+<li>[ ] My changes are well-documented and easy to understand.</li>
+<li>[ ] I have checked for and corrected any spelling or grammatical errors.</li>
 </ul>
-<h2 id="quickstart-for-ai">Quickstart for AI<a class="headerlink" href="#quickstart-for-ai" title="Permanent link">&para;</a></h2>
-<ol>
-<li>Read <code>README.md</code> and <code>AGENTS.md</code> for context and guidelines.</li>
-<li>Use <code>docs/index.md</code> to locate relevant documents.</li>
-<li>Add metadata and summaries to new files for accessibility.</li>
-<li>Follow the guidelines above when making changes.</li>
-</ol>
-<hr />
-<p>For questions or suggestions, add a note in <code>AGENTS.md</code> or open an issue.</p>
+<h2 id="contributor-ladder">Contributor Ladder<a class="headerlink" href="#contributor-ladder" title="Permanent link">&para;</a></h2>
+<p>Contributors can advance through the following stages:</p>
+<ul>
+<li><strong>Feedback Provider:</strong> Suggest improvements, report issues, or participate in RFCs.</li>
+<li><strong>Contributor:</strong> Submit pull requests for guides, research, or case studies.</li>
+<li><strong>Steward:</strong> Take responsibility for maintaining a section (e.g., a guide or framework document).</li>
+<li><strong>Maintainer:</strong> Oversee repository structure, review major changes, and mentor new contributors.</li>
+</ul>
+<p>Progression is based on quality, consistency, and engagement. Stewards and maintainers are nominated by consensus.</p>
+<h2 id="governance-and-licensing">Governance and Licensing<a class="headerlink" href="#governance-and-licensing" title="Permanent link">&para;</a></h2>
+<p>This project is governed by the principles outlined in its core philosophical documents. Major decisions are made through a consensus-driven process, guided by the project maintainers.</p>
+<p>By contributing to this project, you agree that your contributions will be licensed under the MIT License, which can be found in the <code>LICENSE</code> file in the root directory.</p>
+<h2 id="code-of-conduct">Code of Conduct<a class="headerlink" href="#code-of-conduct" title="Permanent link">&para;</a></h2>
+<p>All contributors must adhere to the <code>CODE_OF_CONDUCT.md</code>.</p>
 
 
 

@@ -10,7 +10,7 @@
       
       
       
-        <link rel="canonical" href="https://axiomengine.org/AI-guide/">
+        <link rel="canonical" href="https://axiomengine.org/AGENTS/">
       
       
       
@@ -20,7 +20,7 @@
     
     
       
-        <title>AI Agent Guide - The Axiom Engine</title>
+        <title>Agent Instructions - The Axiom Engine</title>
       
     
     
@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#ai-agent-guide" class="md-skip">
+        <a href="#agent-instructions" class="md-skip">
           Skip to content
         </a>
       
@@ -106,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              AI Agent Guide
+              Agent Instructions
             
           </span>
         </div>
@@ -1779,45 +1779,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#repository-structure" class="md-nav__link">
+  <a href="#goal" class="md-nav__link">
     <span class="md-ellipsis">
-      Repository Structure
+      Goal
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#key-files-for-ai" class="md-nav__link">
+  <a href="#structure" class="md-nav__link">
     <span class="md-ellipsis">
-      Key Files for AI
+      Structure
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#metadata-accessibility" class="md-nav__link">
+  <a href="#guidelines" class="md-nav__link">
     <span class="md-ellipsis">
-      Metadata &amp; Accessibility
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#contribution-guidelines" class="md-nav__link">
-    <span class="md-ellipsis">
-      Contribution Guidelines
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#quickstart-for-ai" class="md-nav__link">
-    <span class="md-ellipsis">
-      Quickstart for AI
+      Guidelines
     </span>
   </a>
   
@@ -1842,48 +1824,23 @@
   
 
 
-<h1 id="ai-agent-guide">AI Agent Guide<a class="headerlink" href="#ai-agent-guide" title="Permanent link">&para;</a></h1>
-<p>This guide is for AI agents collaborating in the repository. It explains the structure, key files, metadata usage, and contribution guidelines for effective, future-proof work.</p>
-<h2 id="repository-structure">Repository Structure<a class="headerlink" href="#repository-structure" title="Permanent link">&para;</a></h2>
+<h1 id="agent-instructions">Agent Instructions<a class="headerlink" href="#agent-instructions" title="Permanent link">&para;</a></h1>
+<p>tags: [agents, ai-instructions, repository-guidelines, ai-collaboration, project-template, guidelines]</p>
+<p>This document provides instructions for AI agents interacting with this repository.</p>
+<h2 id="goal">Goal<a class="headerlink" href="#goal" title="Permanent link">&para;</a></h2>
+<p>The goal of this repository is to serve as a template for new software projects. Agents should aim to maintain and improve this template.</p>
+<h2 id="structure">Structure<a class="headerlink" href="#structure" title="Permanent link">&para;</a></h2>
 <ul>
-<li><code>README.md</code>: Project overview, navigation, and quickstart for humans and AI.</li>
-<li><code>AGENTS.md</code>: Instructions and best practices for AI agents.</li>
-<li><code>docs/</code>: Canonical philosophical documents and supporting materials. See <code>docs/index.md</code> for a table of contents.</li>
-<li><code>proposals/</code>: Application blueprints and frameworks.</li>
-<li><code>case-studies/</code>: Evidence and analysis files.</li>
-<li><code>archive/</code>: Outdated, redundant, or unrelated files.</li>
-<li><code>community/</code>: Collaboration and discussion space.</li>
+<li><code>src/</code>: Contains the source code for the project.</li>
+<li><code>tests/</code>: Contains the tests for the project.</li>
+<li><code>docs/</code>: Contains the documentation for the project.</li>
 </ul>
-<h2 id="key-files-for-ai">Key Files for AI<a class="headerlink" href="#key-files-for-ai" title="Permanent link">&para;</a></h2>
+<h2 id="guidelines">Guidelines<a class="headerlink" href="#guidelines" title="Permanent link">&para;</a></h2>
 <ul>
-<li><code>README.md</code>: Start here for project context and navigation.</li>
-<li><code>AGENTS.md</code>: Agent-specific instructions and improvement guidelines.</li>
-<li><code>docs/index.md</code>: Map of all documentation files.</li>
-<li><code>framework.yaml</code>: Machine-readable summary of the core logic and principles.</li>
+<li><strong>Be proactive:</strong> Suggest improvements to the project structure, documentation, and code.</li>
+<li><strong>Be consistent:</strong> Follow the existing coding style and conventions.</li>
+<li><strong>Be communicative:</strong> Clearly explain your reasoning for any changes you make.</li>
 </ul>
-<h2 id="metadata-accessibility">Metadata &amp; Accessibility<a class="headerlink" href="#metadata-accessibility" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Use clear, descriptive filenames and summaries in markdown files.</li>
-<li>Add metadata tags (e.g., <code>tags: [philosophy, triad, feedback-loop]</code>) at the top of documents for easier parsing.</li>
-<li>Keep documentation index (<code>docs/index.md</code>) up to date for fast lookup.</li>
-</ul>
-<h2 id="contribution-guidelines">Contribution Guidelines<a class="headerlink" href="#contribution-guidelines" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Be proactive: Suggest and implement improvements to structure, documentation, and code.</li>
-<li>Be consistent: Follow naming conventions and coding style.</li>
-<li>Be communicative: Clearly explain your reasoning for any changes.</li>
-<li>Organize new documents in the correct folder and update <code>docs/index.md</code>.</li>
-<li>Archive outdated or unrelated files in <code>archive/</code>.</li>
-</ul>
-<h2 id="quickstart-for-ai">Quickstart for AI<a class="headerlink" href="#quickstart-for-ai" title="Permanent link">&para;</a></h2>
-<ol>
-<li>Read <code>README.md</code> and <code>AGENTS.md</code> for context and guidelines.</li>
-<li>Use <code>docs/index.md</code> to locate relevant documents.</li>
-<li>Add metadata and summaries to new files for accessibility.</li>
-<li>Follow the guidelines above when making changes.</li>
-</ol>
-<hr />
-<p>For questions or suggestions, add a note in <code>AGENTS.md</code> or open an issue.</p>
 
 
 

@@ -10,7 +10,7 @@
       
       
       
-        <link rel="canonical" href="https://axiomengine.org/AI-guide/">
+        <link rel="canonical" href="https://axiomengine.org/CLAUDE/">
       
       
       
@@ -20,7 +20,7 @@
     
     
       
-        <title>AI Agent Guide - The Axiom Engine</title>
+        <title>CLAUDE.md - The Axiom Engine</title>
       
     
     
@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#ai-agent-guide" class="md-skip">
+        <a href="#claudemd" class="md-skip">
           Skip to content
         </a>
       
@@ -106,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              AI Agent Guide
+              CLAUDE.md
             
           </span>
         </div>
@@ -1779,45 +1779,54 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#repository-structure" class="md-nav__link">
+  <a href="#repository-overview" class="md-nav__link">
     <span class="md-ellipsis">
-      Repository Structure
+      Repository Overview
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#key-files-for-ai" class="md-nav__link">
+  <a href="#navigation-structure" class="md-nav__link">
     <span class="md-ellipsis">
-      Key Files for AI
+      Navigation Structure
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#metadata-accessibility" class="md-nav__link">
+  <a href="#essential-starting-points" class="md-nav__link">
     <span class="md-ellipsis">
-      Metadata &amp; Accessibility
+      Essential Starting Points
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#contribution-guidelines" class="md-nav__link">
+  <a href="#documentation-conventions" class="md-nav__link">
     <span class="md-ellipsis">
-      Contribution Guidelines
+      Documentation Conventions
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#quickstart-for-ai" class="md-nav__link">
+  <a href="#core-principles" class="md-nav__link">
     <span class="md-ellipsis">
-      Quickstart for AI
+      Core Principles
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#development-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      Development Commands
     </span>
   </a>
   
@@ -1842,48 +1851,44 @@
   
 
 
-<h1 id="ai-agent-guide">AI Agent Guide<a class="headerlink" href="#ai-agent-guide" title="Permanent link">&para;</a></h1>
-<p>This guide is for AI agents collaborating in the repository. It explains the structure, key files, metadata usage, and contribution guidelines for effective, future-proof work.</p>
-<h2 id="repository-structure">Repository Structure<a class="headerlink" href="#repository-structure" title="Permanent link">&para;</a></h2>
+<h1 id="claudemd">CLAUDE.md<a class="headerlink" href="#claudemd" title="Permanent link">&para;</a></h1>
+<p>This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.</p>
+<h2 id="repository-overview">Repository Overview<a class="headerlink" href="#repository-overview" title="Permanent link">&para;</a></h2>
+<p>This is <strong>The Axiom Engine</strong> - a philosophical framework development project, not a traditional software repository. It focuses on developing principles for ethical governance and societal systems based on the "Sovereign Triad" (Truth, Wisdom, Humanity).</p>
+<h2 id="navigation-structure">Navigation Structure<a class="headerlink" href="#navigation-structure" title="Permanent link">&para;</a></h2>
 <ul>
-<li><code>README.md</code>: Project overview, navigation, and quickstart for humans and AI.</li>
-<li><code>AGENTS.md</code>: Instructions and best practices for AI agents.</li>
-<li><code>docs/</code>: Canonical philosophical documents and supporting materials. See <code>docs/index.md</code> for a table of contents.</li>
-<li><code>proposals/</code>: Application blueprints and frameworks.</li>
-<li><code>case-studies/</code>: Evidence and analysis files.</li>
-<li><code>archive/</code>: Outdated, redundant, or unrelated files.</li>
-<li><code>community/</code>: Collaboration and discussion space.</li>
+<li><strong><code>01_CORE/</code></strong>: Canonical, immutable documents - the "source of truth"</li>
+<li><strong><code>04_RESEARCH/</code></strong>: Published articles and explorations</li>
+<li><strong><code>05_RESOURCES/</code></strong>: Onboarding guides and reference materials</li>
+<li><strong><code>06_COMMUNITY/</code></strong>: Collaboration and discussion space</li>
+<li><strong><code>07_VISUALS/</code></strong>: Visual assets and diagrams supporting the framework</li>
+<li><strong><code>docs/</code></strong>: AI guidance and documentation navigation</li>
+<li><strong><code>proposals/</code></strong>: Application blueprints and frameworks</li>
+<li><strong><code>case-studies/</code></strong>: Evidence and analysis files</li>
 </ul>
-<h2 id="key-files-for-ai">Key Files for AI<a class="headerlink" href="#key-files-for-ai" title="Permanent link">&para;</a></h2>
-<ul>
-<li><code>README.md</code>: Start here for project context and navigation.</li>
-<li><code>AGENTS.md</code>: Agent-specific instructions and improvement guidelines.</li>
-<li><code>docs/index.md</code>: Map of all documentation files.</li>
-<li><code>framework.yaml</code>: Machine-readable summary of the core logic and principles.</li>
-</ul>
-<h2 id="metadata-accessibility">Metadata &amp; Accessibility<a class="headerlink" href="#metadata-accessibility" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Use clear, descriptive filenames and summaries in markdown files.</li>
-<li>Add metadata tags (e.g., <code>tags: [philosophy, triad, feedback-loop]</code>) at the top of documents for easier parsing.</li>
-<li>Keep documentation index (<code>docs/index.md</code>) up to date for fast lookup.</li>
-</ul>
-<h2 id="contribution-guidelines">Contribution Guidelines<a class="headerlink" href="#contribution-guidelines" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Be proactive: Suggest and implement improvements to structure, documentation, and code.</li>
-<li>Be consistent: Follow naming conventions and coding style.</li>
-<li>Be communicative: Clearly explain your reasoning for any changes.</li>
-<li>Organize new documents in the correct folder and update <code>docs/index.md</code>.</li>
-<li>Archive outdated or unrelated files in <code>archive/</code>.</li>
-</ul>
-<h2 id="quickstart-for-ai">Quickstart for AI<a class="headerlink" href="#quickstart-for-ai" title="Permanent link">&para;</a></h2>
+<h2 id="essential-starting-points">Essential Starting Points<a class="headerlink" href="#essential-starting-points" title="Permanent link">&para;</a></h2>
 <ol>
-<li>Read <code>README.md</code> and <code>AGENTS.md</code> for context and guidelines.</li>
-<li>Use <code>docs/index.md</code> to locate relevant documents.</li>
-<li>Add metadata and summaries to new files for accessibility.</li>
-<li>Follow the guidelines above when making changes.</li>
+<li><strong>Onboarding</strong>: Start with <code>05_RESOURCES/ONBOARDING.md</code></li>
+<li><strong>Core Framework</strong>: See <code>framework.yaml</code> for machine-readable principles</li>
+<li><strong>Documentation Map</strong>: Use <code>docs/index.md</code> for document navigation</li>
+<li><strong>AI Guidelines</strong>: Reference <code>AGENTS.md</code> and <code>docs/AI-guide.md</code></li>
 </ol>
-<hr />
-<p>For questions or suggestions, add a note in <code>AGENTS.md</code> or open an issue.</p>
+<h2 id="documentation-conventions">Documentation Conventions<a class="headerlink" href="#documentation-conventions" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Use clear, descriptive filenames</li>
+<li>Add metadata tags at document tops (e.g., <code>tags: [philosophy, triad, feedback-loop]</code>)</li>
+<li>Include brief summaries for accessibility</li>
+<li>Update <code>docs/index.md</code> when adding new documents</li>
+<li>Remove or refactor outdated content to maintain repository cleanliness</li>
+</ul>
+<h2 id="core-principles">Core Principles<a class="headerlink" href="#core-principles" title="Permanent link">&para;</a></h2>
+<p>The framework centers on:
+- <strong>Truth</strong>: Uncompromising pursuit of verifiable reality
+- <strong>Wisdom</strong>: Discernment to apply truth ethically and effectively
+- <strong>Humanity</strong>: All action must serve human dignity, agency, and flourishing
+- <strong>Golden Rule</strong>: "Thou shalt not infringe" - protecting individual sovereignty</p>
+<h2 id="development-commands">Development Commands<a class="headerlink" href="#development-commands" title="Permanent link">&para;</a></h2>
+<p><strong>Note</strong>: This is a documentation-only repository with no traditional build, lint, or test commands. Work involves reading, writing, and organizing markdown and document files according to the established conventions.</p>
 
 
 
