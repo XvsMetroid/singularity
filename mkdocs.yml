@@ -46,11 +46,12 @@ markdown_extensions:
   - pymdownx.mark
   - attr_list
   - md_in_html
+  - pymdownx.extra
   - toc:
       permalink: true
 
 nav:
-  - Home: README.md
+  - Home: index.html
   - Core Framework:
     - Constitution: 01_CORE/00_The_Constitution.md
     - Genesis & Methodology: 01_CORE/01_The_Genesis_and_Cognitive_Methodology.md
