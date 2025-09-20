@@ -91,8 +91,8 @@ nav:
     - RFC Process: 06_COMMUNITY/RFC/README.md
     - Current RFCs: 06_COMMUNITY/RFC/001_Measurement_Problem.md
   - Documentation:
-    - Index: docs/index.md
-    - AI Guide: docs/AI-guide.md
+    - Index: index.md
+    - AI Guide: AI-guide.md
     - Contributing: CONTRIBUTING.md
 
 extra:
