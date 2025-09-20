@@ -1,0 +1,24 @@
+{
+  "name": "axiom-engine",
+  "version": "1.0.0",
+  "description": "The Axiom Engine - A philosophical framework for ethical governance",
+  "scripts": {
+    "install": "pip install -r requirements.txt",
+    "dev": "mkdocs serve",
+    "build": "mkdocs build",
+    "preview": "python -m http.server 8000 --directory site",
+    "deploy": "mkdocs gh-deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XvsMetroid/singularity.git"
+  },
+  "keywords": [
+    "philosophy",
+    "governance",
+    "ethics",
+    "axiom-engine"
+  ],
+  "author": "XvsMetroid",
+  "license": "MIT"
+}
