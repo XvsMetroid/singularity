@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Axiom Engine - Interactive Visualization</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f0f1e 0%, #1a1a3e 100%);
+            color: #ffffff;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        h1 {
+            font-size: 3.5em;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            font-size: 1.3em;
+            color: #a8b2d1;
+            margin-bottom: 30px;
+        }
+
+        .triad-container {
+            display: flex;
+            justify-content: center;
+            margin: 60px 0;
+            position: relative;
+        }
+
+        .triad-wrapper {
+            position: relative;
+            width: 400px;
+            height: 400px;
+        }
+
+        .triad-circle {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        .triad-circle:hover {
+            transform: scale(1.1);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.5);
+        }
+
+        .truth {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .wisdom {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            bottom: 0;
+            left: 0;
+        }
+
+        .humanity {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            bottom: 0;
+            right: 0;
+        }
+
+        .triad-icon {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .triad-label {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        .connecting-lines {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+
+        .connecting-lines svg {
+            width: 100%;
+            height: 100%;
+        }
+
+        .principle-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 60px 0;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 30px;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .card:hover {
+            background: rgba(255, 255, 255, 0.08);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        .card-icon {
+            font-size: 2em;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        .card h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+        }
+
+        .card p {
+            color: #a8b2d1;
+            line-height: 1.6;
+        }
+
+        .golden-rule {
+            background: linear-gradient(135deg, rgba(255, 215, 0, 0.1), rgba(255, 165, 0, 0.1));
+            border: 2px solid #ffd700;
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            margin: 60px 0;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(255, 215, 0, 0.4); }
+            70% { box-shadow: 0 0 0 20px rgba(255, 215, 0, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(255, 215, 0, 0); }
+        }
+
+        .golden-rule h2 {
+            color: #ffd700;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+
+        .golden-rule-text {
+            font-size: 1.5em;
+            color: #ffd700;
+            font-style: italic;
+            margin-bottom: 15px;
+        }
+
+        .navigation-section {
+            margin: 60px 0;
+        }
+
+        .nav-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .nav-item {
+            background: rgba(102, 126, 234, 0.1);
+            border: 1px solid rgba(102, 126, 234, 0.3);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .nav-item:hover {
+            background: rgba(102, 126, 234, 0.2);
+            transform: scale(1.05);
+        }
+
+        .nav-item-icon {
+            font-size: 2em;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .nav-item h4 {
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+
+        .nav-item p {
+            color: #a8b2d1;
+            font-size: 0.9em;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.8);
+            animation: fadeIn 0.3s ease;
+        }
+
+        .modal-content {
+            background: linear-gradient(135deg, #1a1a3e 0%, #0f0f1e 100%);
+            margin: 5% auto;
+            padding: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            width: 80%;
+            max-width: 600px;
+            position: relative;
+            animation: slideIn 0.3s ease;
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close:hover {
+            color: #fff;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 80px;
+            padding-top: 40px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #a8b2d1;
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5em; }
+            .triad-wrapper { width: 300px; height: 300px; }
+            .triad-circle { width: 100px; height: 100px; }
+            .triad-icon { font-size: 1.8em; }
+            .triad-label { font-size: 1em; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>The Axiom Engine</h1>
+            <p class="subtitle">A Philosophical Framework for Ethical Governance</p>
+            <p style="color: #a8b2d1;">Building systems based on Truth, Wisdom, and Humanity</p>
+        </header>
+
+        <div class="triad-container">
+            <div class="triad-wrapper">
+                <div class="connecting-lines">
+                    <svg>
+                        <line x1="200" y1="75" x2="75" y2="325" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+                        <line x1="200" y1="75" x2="325" y2="325" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+                        <line x1="75" y1="325" x2="325" y2="325" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+                    </svg>
+                </div>
+                <div class="triad-circle truth" onclick="showModal('truth')">
+                    <span class="triad-icon">🔍</span>
+                    <span class="triad-label">TRUTH</span>
+                </div>
+                <div class="triad-circle wisdom" onclick="showModal('wisdom')">
+                    <span class="triad-icon">🧠</span>
+                    <span class="triad-label">WISDOM</span>
+                </div>
+                <div class="triad-circle humanity" onclick="showModal('humanity')">
+                    <span class="triad-icon">❤️</span>
+                    <span class="triad-label">HUMANITY</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="golden-rule">
+            <h2>The Golden Rule</h2>
+            <p class="golden-rule-text">"Thou shalt not infringe"</p>
+            <p style="color: #a8b2d1;">Protecting individual sovereignty and human dignity</p>
+        </div>
+
+        <div class="principle-cards">
+            <div class="card" onclick="showModal('verifiable')">
+                <span class="card-icon">✓</span>
+                <h3>Verifiable Reality</h3>
+                <p>Uncompromising pursuit of truth through evidence-based reasoning and empirical validation.</p>
+            </div>
+            <div class="card" onclick="showModal('ethical')">
+                <span class="card-icon">⚖️</span>
+                <h3>Ethical Application</h3>
+                <p>Wisdom guides the ethical and effective application of truth in service of humanity.</p>
+            </div>
+            <div class="card" onclick="showModal('dignity')">
+                <span class="card-icon">👥</span>
+                <h3>Human Dignity</h3>
+                <p>All actions must serve human flourishing, agency, and individual sovereignty.</p>
+            </div>
+            <div class="card" onclick="showModal('feedback')">
+                <span class="card-icon">🔄</span>
+                <h3>Feedback Loops</h3>
+                <p>Continuous refinement through observation, analysis, and adaptive improvement.</p>
+            </div>
+        </div>
+
+        <div class="navigation-section">
+            <h2 style="text-align: center; margin-bottom: 30px; color: #667eea;">Repository Structure</h2>
+            <div class="nav-grid">
+                <div class="nav-item" onclick="showModal('core')">
+                    <span class="nav-item-icon">📚</span>
+                    <h4>01_CORE</h4>
+                    <p>Canonical documents</p>
+                </div>
+                <div class="nav-item" onclick="showModal('research')">
+                    <span class="nav-item-icon">🔬</span>
+                    <h4>04_RESEARCH</h4>
+                    <p>Published articles</p>
+                </div>
+                <div class="nav-item" onclick="showModal('resources')">
+                    <span class="nav-item-icon">📖</span>
+                    <h4>05_RESOURCES</h4>
+                    <p>Onboarding guides</p>
+                </div>
+                <div class="nav-item" onclick="showModal('community')">
+                    <span class="nav-item-icon">🤝</span>
+                    <h4>06_COMMUNITY</h4>
+                    <p>Collaboration space</p>
+                </div>
+                <div class="nav-item" onclick="showModal('visuals')">
+                    <span class="nav-item-icon">🎨</span>
+                    <h4>07_VISUALS</h4>
+                    <p>Visual assets</p>
+                </div>
+                <div class="nav-item" onclick="showModal('proposals')">
+                    <span class="nav-item-icon">📋</span>
+                    <h4>Proposals</h4>
+                    <p>Application blueprints</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>The Axiom Engine - A Framework for Ethical Governance</p>
+            <p style="margin-top: 10px; font-size: 0.9em;">Click on any element to learn more</p>
+        </div>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script>
+        const modalContent = {
+            truth: {
+                title: "Truth - The Foundation",
+                content: `
+                    <h2 style="color: #667eea; margin-bottom: 20px;">Truth - The Foundation</h2>
+                    <p style="line-height: 1.8; margin-bottom: 20px;">Truth represents the uncompromising pursuit of verifiable reality. It is the foundation upon which all ethical systems must be built.</p>
+                    <h3 style="color: #764ba2; margin-top: 30px; margin-bottom: 15px;">Key Principles:</h3>
+                    <ul style="line-height: 1.8; color: #a8b2d1;">
+                        <li>Evidence-based reasoning</li>
+                        <li>Empirical validation</li>
+                        <li>Intellectual honesty</li>
+                        <li>Continuous questioning and verification</li>
+                    </ul>
+                    <p style="margin-top: 20px; font-style: italic; color: #a8b2d1;">"Truth is not what we wish to be real, but what demonstrably is."</p>
+                `
+            },
+            wisdom: {
+                title: "Wisdom - The Guide",
+                content: `
+                    <h2 style="color: #f093fb; margin-bottom: 20px;">Wisdom - The Guide</h2>
+                    <p style="line-height: 1.8; margin-bottom: 20px;">Wisdom provides the discernment to apply truth ethically and effectively. It bridges the gap between knowledge and right action.</p>
+                    <h3 style="color: #f5576c; margin-top: 30px; margin-bottom: 15px;">Core Aspects:</h3>
+                    <ul style="line-height: 1.8; color: #a8b2d1;">
+                        <li>Ethical discernment</li>
+                        <li>Contextual understanding</li>
+                        <li>Long-term thinking</li>
+                        <li>Balancing competing interests</li>
+                    </ul>
+                    <p style="margin-top: 20px; font-style: italic; color: #a8b2d1;">"Wisdom is knowing not just what is true, but how to apply it for the greater good."</p>
+                `
+            },
+            humanity: {
+                title: "Humanity - The Purpose",
+                content: `
+                    <h2 style="color: #4facfe; margin-bottom: 20px;">Humanity - The Purpose</h2>
+                    <p style="line-height: 1.8; margin-bottom: 20px;">Humanity ensures that all actions serve human dignity, agency, and flourishing. It is the ultimate purpose of the framework.</p>
+                    <h3 style="color: #00f2fe; margin-top: 30px; margin-bottom: 15px;">Essential Elements:</h3>
+                    <ul style="line-height: 1.8; color: #a8b2d1;">
+                        <li>Individual sovereignty</li>
+                        <li>Human dignity</li>
+                        <li>Collective flourishing</li>
+                        <li>Protection of agency</li>
+                    </ul>
+                    <p style="margin-top: 20px; font-style: italic; color: #a8b2d1;">"Every system must ultimately serve humanity's wellbeing and potential."</p>
+                `
+            },
+            verifiable: {
+                title: "Verifiable Reality",
+                content: `
+                    <h2 style="color: #667eea; margin-bottom: 20px;">Verifiable Reality</h2>
+                    <p style="line-height: 1.8; margin-bottom: 20px;">The commitment to base all decisions and systems on demonstrable facts and evidence.</p>
+                    <h3 style="color: #764ba2; margin-top: 30px; margin-bottom: 15px;">Implementation:</h3>
+                    <ul style="line-height: 1.8; color: #a8b2d1;">
+                        <li>Rigorous testing of assumptions</li>
+                        <li>Peer review and validation</li>
+                        <li>Transparency in methodology</li>
+                        <li>Openness to correction</li>
+                    </ul>
+                `
+            },
+            ethical: {
+                title: "Ethical Application",
+                content: `
+                    <h2 style="color: #f093fb; margin-bottom: 20px;">Ethical Application</h2>
+                    <p style="line-height: 1.8; margin-bottom: 20px;">The framework for ensuring that truth is applied with wisdom and compassion.</p>
+                    <h3 style="color: #f5576c; margin-top: 30px; margin-bottom: 15px;">Guidelines:</h3>
+                    <ul style="line-height: 1.8; color: #a8b2d1;">
+                        <li>Consider all stakeholders</li>
+                        <li>Minimize harm</li>
+                        <li>Maximize benefit</li>
+                        <li>Respect individual rights</li>
+                    </ul>
+                `
+            },
+            dignity: {
+                title: "Human Dignity",
+                content: `
+                    <h2 style="color: #4facfe; margin-bottom: 20px;">Human Dignity</h2>
+                    <p style="line-height: 1.8; margin-bottom: 20px;">The inviolable worth of every human being that must be protected and promoted.</p>
+                    <h3 style="color: #00f2fe; margin-top: 30px; margin-bottom: 15px;">Protections:</h3>
+                    <ul style="line-height: 1.8; color: #a8b2d1;">
+                        <li>Right to self-determination</li>
+                        <li>Freedom from coercion</li>
+                        <li>Equal treatment under systems</li>
+                        <li>Access to opportunity</li>
+                    </ul>
+                `
+            },
+            feedback: {
+                title: "Feedback Loops",
+                content: `
+                    <h2 style="color: #667eea; margin-bottom: 20px;">Feedback Loops</h2>
+                    <p style="line-height: 1.8; margin-bottom: 20px;">Continuous improvement through observation, analysis, and adaptation.</p>
+                    <h3 style="color: #764ba2; margin-top: 30px; margin-bottom: 15px;">Process:</h3>
+                    <ul style="line-height: 1.8; color: #a8b2d1;">
+                        <li>Monitor outcomes</li>
+                        <li>Analyze effectiveness</li>
+                        <li>Identify improvements</li>
+                        <li>Implement refinements</li>
+                    </ul>
+                `
+            },
+            core: {
+                title: "Core Documents",
+                content: `
+                    <h2 style="color: #667eea; margin-bottom: 20px;">01_CORE - Canonical Documents</h2>
+                    <p style="line-height: 1.8; margin-bottom: 20px;">The immutable source of truth for the Axiom Engine framework.</p>
+                    <h3 style="color: #764ba2; margin-top: 30px; margin-bottom: 15px;">Contains:</h3>
+                    <ul style="line-height: 1.8; color: #a8b2d1;">
+                        <li>Foundational principles</li>
+                        <li>Core axioms</li>
+                        <li>Framework definitions</li>
+                        <li>Canonical references</li>
+                    </ul>
+                `
+            },
+            research: {
+                title: "Research Articles",
+                content: `
+                    <h2 style="color: #667eea; margin-bottom: 20px;">04_RESEARCH - Published Articles</h2>
+                    <p style="line-height: 1.8; margin-bottom: 20px;">Explorations and applications of the framework in various contexts.</p>
+                    <h3 style="color: #764ba2; margin-top: 30px; margin-bottom: 15px;">Topics:</h3>
+                    <ul style="line-height: 1.8; color: #a8b2d1;">
+                        <li>Governance models</li>
+                        <li>Economic systems</li>
+                        <li>Social structures</li>
+                        <li>Technological ethics</li>
+                    </ul>
+                `
+            },
+            resources: {
+                title: "Resources & Guides",
+                content: `
+                    <h2 style="color: #667eea; margin-bottom: 20px;">05_RESOURCES - Onboarding</h2>
+                    <p style="line-height: 1.8; margin-bottom: 20px;">Materials for understanding and implementing the framework.</p>
+                    <h3 style="color: #764ba2; margin-top: 30px; margin-bottom: 15px;">Available:</h3>
+                    <ul style="line-height: 1.8; color: #a8b2d1;">
+                        <li>Getting started guides</li>
+                        <li>Reference materials</li>
+                        <li>Implementation templates</li>
+                        <li>Best practices</li>
+                    </ul>
+                `
+            },
+            community: {
+                title: "Community Space",
+                content: `
+                    <h2 style="color: #667eea; margin-bottom: 20px;">06_COMMUNITY - Collaboration</h2>
+                    <p style="line-height: 1.8; margin-bottom: 20px;">A space for discussion, collaboration, and collective development.</p>
+                    <h3 style="color: #764ba2; margin-top: 30px; margin-bottom: 15px;">Activities:</h3>
+                    <ul style="line-height: 1.8; color: #a8b2d1;">
+                        <li>Discussions and debates</li>
+                        <li>Collaborative projects</li>
+                        <li>Peer review</li>
+                        <li>Knowledge sharing</li>
+                    </ul>
+                `
+            },
+            visuals: {
+                title: "Visual Assets",
+                content: `
+                    <h2 style="color: #667eea; margin-bottom: 20px;">07_VISUALS - Diagrams & Art</h2>
+                    <p style="line-height: 1.8; margin-bottom: 20px;">Visual representations of framework concepts and principles.</p>
+                    <h3 style="color: #764ba2; margin-top: 30px; margin-bottom: 15px;">Includes:</h3>
+                    <ul style="line-height: 1.8; color: #a8b2d1;">
+                        <li>Conceptual diagrams</li>
+                        <li>Process flowcharts</li>
+                        <li>Infographics</li>
+                        <li>Educational materials</li>
+                    </ul>
+                `
+            },
+            proposals: {
+                title: "Proposals & Blueprints",
+                content: `
+                    <h2 style="color: #667eea; margin-bottom: 20px;">Proposals - Application Blueprints</h2>
+                    <p style="line-height: 1.8; margin-bottom: 20px;">Practical applications and implementations of the framework.</p>
+                    <h3 style="color: #764ba2; margin-top: 30px; margin-bottom: 15px;">Examples:</h3>
+                    <ul style="line-height: 1.8; color: #a8b2d1;">
+                        <li>Governance structures</li>
+                        <li>Organizational models</li>
+                        <li>Policy frameworks</li>
+                        <li>System designs</li>
+                    </ul>
+                `
+            }
+        };
+
+        function showModal(type) {
+            const modal = document.getElementById('modal');
+            const modalBody = document.getElementById('modal-body');
+
+            if (modalContent[type]) {
+                modalBody.innerHTML = modalContent[type].content;
+                modal.style.display = 'block';
+            }
+        }
+
+        function closeModal() {
+            document.getElementById('modal').style.display = 'none';
+        }
+
+        window.onclick = function(event) {
+            const modal = document.getElementById('modal');
+            if (event.target == modal) {
+                modal.style.display = 'none';
+            }
+        }
+
+        // Add some interactive animations
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.card');
+            cards.forEach((card, index) => {
+                card.style.animation = `fadeInDown 0.5s ease-out ${index * 0.1}s both`;
+            });
+
+            const navItems = document.querySelectorAll('.nav-item');
+            navItems.forEach((item, index) => {
+                item.style.animation = `fadeInDown 0.5s ease-out ${index * 0.05}s both`;
+            });
+        });
+    </script>
+</body>
+</html>
