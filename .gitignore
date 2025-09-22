@@ -60,3 +60,6 @@ venv.bak/
 # IDEs
 .idea/
 .vscode/
+
+# MkDocs generated site
+site/
