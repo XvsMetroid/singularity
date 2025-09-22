@@ -42,4 +42,11 @@ The framework centers on:
 
 ## Development Commands
 
-**Note**: This is a documentation-only repository with no traditional build, lint, or test commands. Work involves reading, writing, and organizing markdown and document files according to the established conventions.
+**Documentation Site Commands:**
+- `npm run dev` - Start MkDocs development server (live-reload at http://localhost:8000)
+- `npm run build` - Build static documentation site to `site/` directory
+- `npm run preview` - Preview built site locally
+- `npm run deploy` - Deploy documentation to GitHub Pages
+- `npm run install` - Install Python dependencies (MkDocs)
+
+**Note**: This is primarily a documentation repository. There are no traditional lint or test commands. Work involves reading, writing, and organizing markdown files according to the established conventions.
