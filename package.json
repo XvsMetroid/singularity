@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "The Axiom Engine - A philosophical framework for ethical governance",
   "scripts": {
-    "install": "pip install -r requirements.txt",
+    "install": "pip install -r requirements.txt && npm install -D markdownlint-cli",
     "dev": "mkdocs serve",
     "build": "mkdocs build",
     "preview": "python -m http.server 8000 --directory site",
-    "deploy": "mkdocs gh-deploy"
+    "deploy": "mkdocs gh-deploy",
+    "lint": "markdownlint '**/*.md' --ignore node_modules --ignore site",
+    "lint:fix": "markdownlint '**/*.md' --ignore node_modules --ignore site --fix",
+    "test": "python scripts/validate_framework.py"
   },
   "repository": {
     "type": "git",
