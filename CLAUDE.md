@@ -47,6 +47,28 @@ The framework centers on:
 - `npm run build` - Build static documentation site to `site/` directory
 - `npm run preview` - Preview built site locally
 - `npm run deploy` - Deploy documentation to GitHub Pages
-- `npm run install` - Install Python dependencies (MkDocs)
+- `npm run install` - Install Python dependencies (MkDocs) and dev tools
 
-**Note**: This is primarily a documentation repository. There are no traditional lint or test commands. Work involves reading, writing, and organizing markdown files according to the established conventions.
+**Quality Assurance Commands:**
+
+- `npm run lint` - Check markdown formatting and style consistency
+- `npm run lint:fix` - Auto-fix markdown formatting issues
+- `npm run test` - Validate framework structure, principles, and cross-references
+
+**Framework Development Commands:**
+
+- `npm run new <type> "<title>"` - Scaffold new documents (research, proposal, guide, rfc)
+- `npm run search <command>` - Search framework concepts and analyze principles
+- `npm run summary <report>` - Generate inventory, principle, or structure reports
+
+**Examples:**
+
+```bash
+npm run new research "The Ethics of AI Governance"
+npm run search concept "truth"
+npm run search coverage --file "01_CORE/00_The_Constitution.md"
+npm run summary principles
+```
+
+**Note**: This is primarily a documentation repository focused on philosophical framework development.
+Commands help maintain quality, consistency, and facilitate contribution workflows.

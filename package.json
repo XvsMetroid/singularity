@@ -10,7 +10,10 @@
     "deploy": "mkdocs gh-deploy",
     "lint": "markdownlint '**/*.md' --ignore node_modules --ignore site",
     "lint:fix": "markdownlint '**/*.md' --ignore node_modules --ignore site --fix",
-    "test": "python scripts/validate_framework.py"
+    "test": "python scripts/validate_framework.py",
+    "new": "python scripts/scaffold.py",
+    "search": "python scripts/search.py",
+    "summary": "python scripts/summary.py"
   },
   "repository": {
     "type": "git",
