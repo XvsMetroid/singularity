@@ -1,0 +1,11 @@
+{
+  "*.md": [
+    "markdownlint --fix",
+    "alex",
+    "git add"
+  ],
+  "framework.yaml": [
+    "yaml-lint",
+    "git add"
+  ]
+}

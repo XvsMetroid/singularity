@@ -1,0 +1,17 @@
+{
+  "allow": [
+    "savage",
+    "execute",
+    "execution",
+    "kill",
+    "killed",
+    "killing",
+    "crush",
+    "crushed",
+    "crushing",
+    "destroy",
+    "destroyed",
+    "destroying"
+  ],
+  "profanitySureness": 1
+}

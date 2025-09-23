@@ -63,3 +63,4 @@ venv.bak/
 
 # MkDocs generated site
 site/
+node_modules
