@@ -9,6 +9,7 @@ Welcome! To understand this project, start with these three documents in order:
 3. [The Axiom Engine OS](../01_CORE/the-axiom-engine.md)
 
 ## How to Navigate
+
 - The `01_CORE/` folder contains the most refined, canonical, and immutable documents—the "source of truth."
 - The `04_RESEARCH/Published_Articles/` folder contains polished, published articles.
 - The `04_RESEARCH/Explorations/` folder contains dialogues, notes, and raw intellectual exploration.
@@ -16,6 +17,7 @@ Welcome! To understand this project, start with these three documents in order:
 - The `06_COMMUNITY/Sandbox/` folder is open for collaborative drafts and experiments.
 
 ## Next Steps
+
 - Read the documents above in order.
 - Explore the research and community folders for deeper engagement.
 - Contribute your insights or questions in the Sandbox!

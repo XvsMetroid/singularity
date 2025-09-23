@@ -6,7 +6,7 @@ summary: "Complete blueprint for implementing anti-fragile societies based on th
 **The Framework of the Sovereign Triad: A Blueprint for Anti-Fragile
 Societies**
 
-**Preamble: The Foundation**
+## Preamble: The Foundation
 
 We stand at a confluence of crises: of information, of governance, of
 meaning. The old systems, built for a simpler world, now show their
@@ -21,7 +21,7 @@ but as a hypothesis to be tested, measured, and refined.
 
 This is a blueprint for a society that learns.
 
-**Book I: The Immutable Core**
+## Book I: The Immutable Core
 
 **Chapter 1: The Triadic Leverage Principle**\
 Complex systems are best understood and influenced through triadic
@@ -61,7 +61,7 @@ This is the simplest, most robust rule for preserving the conditions
 necessary for Truth, Wisdom, and Humanity to function. It is the
 inviolable constraint on all action, personal and systemic.
 
-**Book II: The Operational Engine**
+## Book II: The Operational Engine
 
 **Chapter 1: The Feedback Loop (Act -\> Measure -\> Learn -\> Adapt)**\
 Static, top-down planning is replaced by dynamic, evidence-based
@@ -84,11 +84,11 @@ beyond passive citizenship to active stewardship. The goal is to foster
 critical thinking, moral reasoning, and a sense of responsibility
 through education and practice. The Steward\'s Code:
 
--   Put respect in every action you do.
+- Put respect in every action you do.
 
--   Embody all the ways an individual can benefit the many.
+- Embody all the ways an individual can benefit the many.
 
--   Grow up and act responsibly to preserve the right to remain curious
+- Grow up and act responsibly to preserve the right to remain curious
     and creative.
 
 **Chapter 4: The Entity-Based Social Contract**\
@@ -98,7 +98,7 @@ the active stewardship of its participants to grow, adapt, and thrive.
 It is re-framed as a covenant based on mutual commitment to a higher
 principle.
 
-**Book III: Implementation & Scale**
+## Book III: Implementation & Scale
 
 **Chapter 1: The Cultural Shift: The Human Mandate**\
 Allegiance is shifted from political apparatuses to universal
@@ -134,7 +134,7 @@ must be aligned with the Triad: prioritizing epistemic integrity
 flourishing (Humanity). Its operation must be transparent, auditable by
 a Meta-Monitor, and bound by the Golden Rule.
 
-**Book IV: The Steward\'s Path (A Practical Guide)**
+## Book IV: The Steward's Path (A Practical Guide)
 
 **Chapter 1: On Personal Conduct**\
 The application of the framework begins with the individual. This
@@ -160,19 +160,19 @@ progression---a perpetual movement toward a state where our systems are
 perfectly aligned with our highest principles. This is a journey of
 endless learning and adaptation.
 
-**Appendices**
+## Appendices
 
--   **Appendix A: The Genesis of the Framework:** A summary of the
+- **Appendix A: The Genesis of the Framework:** A summary of the
     cognitive and philosophical journey that led to this synthesis.
 
--   **Appendix B: Glossary of Terms:** Definitions for Sovereign Triad,
+- **Appendix B: Glossary of Terms:** Definitions for Sovereign Triad,
     Entity-Based Social Contract, Meta-Monitor, etc.
 
--   **Appendix C: Research Proposal:** A outline for the rigorous
+- **Appendix C: Research Proposal:** A outline for the rigorous
     academic study and practical testing of the framework\'s principles
     and mechanisms.
 
--   **Appendix D: The Steward\'s Log:** The core aphorisms and
+- **Appendix D: The Steward\'s Log:** The core aphorisms and
     principles that serve as the framework\'s moral and intellectual
     compass.
 

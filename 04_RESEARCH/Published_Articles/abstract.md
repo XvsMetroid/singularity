@@ -20,13 +20,13 @@ capabilities.
 This project proposes that the resilience of a social system is a
 function of its fidelity to three interdependent, axiomatic pillars:
 
--   **Truth:** An uncompromising commitment to verifiable reality and
+- **Truth:** An uncompromising commitment to verifiable reality and
     epistemic integrity.
 
--   **Wisdom:** The capacity for ethical discernment and context-aware
+- **Wisdom:** The capacity for ethical discernment and context-aware
     application of knowledge.
 
--   **Humanity:** The principle that all action must serve human
+- **Humanity:** The principle that all action must serve human
     dignity, agency, and flourishing (*eudaimonia*).\
     We hypothesize that a system explicitly designed to optimize for
     these values will demonstrate superior anti-fragility, ethical
@@ -35,12 +35,12 @@ function of its fidelity to three interdependent, axiomatic pillars:
 **3. Methodology & Operationalization:**\
 The framework moves from theory to practice through two core mechanisms:
 
--   **Recursive Feedback Loops (Act -\> Measure -\> Learn -\>
+- **Recursive Feedback Loops (Act -\> Measure -\> Learn -\>
     Adapt):** Embedding the scientific method and cybernetic principles
     into governance to replace static bureaucracy with evidence-based,
     iterative policy formation.
 
--   **The Meta-Monitor:** A second-order process designed to
+- **The Meta-Monitor:** A second-order process designed to
     continuously audit the system itself---including its feedback
     loops---for goal displacement and divergence from its axiomatic
     pillars, acting as an institutional immune system against corruption
@@ -50,19 +50,19 @@ The framework moves from theory to practice through two core mechanisms:
 The Sovereign Triad presents a novel paradigm for research across
 multiple domains:
 
--   **Cognitive Science:** Modeling collective intelligence,
+- **Cognitive Science:** Modeling collective intelligence,
     meta-cognitive processes in social systems, and the cognitive basis
     of ethical reasoning.
 
--   **Political Science & Governance:** Prototyping new models for
+- **Political Science & Governance:** Prototyping new models for
     policy-making and institutional design focused on adaptation and
     error-correction.
 
--   **AI Ethics & Safety:** Providing a value-alignment framework for
+- **AI Ethics & Safety:** Providing a value-alignment framework for
     artificial intelligence (a \"Triad Charter\") based on verifiable
     reality, ethical application, and human flourishing.
 
--   **Economics:** Developing new metrics for progress, such as a
+- **Economics:** Developing new metrics for progress, such as a
     \"Global Flourishing Index,\" that move beyond GDP to measure
     fidelity to the Triad\'s pillars.
 
@@ -72,12 +72,12 @@ complete philosophical architecture with detailed constitutions,
 cultural codes, and operational protocols. We are seeking academic
 partners interested in:
 
--   Critically analyzing the framework\'s theoretical coherence.
+- Critically analyzing the framework\'s theoretical coherence.
 
--   Developing empirical studies and metrics to test its core
+- Developing empirical studies and metrics to test its core
     hypotheses.
 
--   Designing simulations or pilot programs to evaluate its mechanisms.
+- Designing simulations or pilot programs to evaluate its mechanisms.
 
 We welcome the opportunity to discuss this further and can provide a
 comprehensive executive summary upon request.

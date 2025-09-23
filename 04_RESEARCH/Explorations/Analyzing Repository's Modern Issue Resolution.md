@@ -1,5 +1,4 @@
 
-
 # **The Axiom Engine: A Theoretical Assessment of a Framework for Resolving Modern Systemic Crises**
 
 ## **Introduction: A Philosophical Operating System for an Age of Social Entropy**

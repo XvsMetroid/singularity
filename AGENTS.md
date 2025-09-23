@@ -35,6 +35,7 @@ This is **The Axiom Engine** - a philosophical framework development project, no
 ## Core Principles
 
 The framework centers on:
+
 - **Truth**: Uncompromising pursuit of verifiable reality
 - **Wisdom**: Discernment to apply truth ethically and effectively
 - **Humanity**: All action must serve human dignity, agency, and flourishing
@@ -43,7 +44,8 @@ The framework centers on:
 ## Development Commands
 
 **Documentation Site Commands:**
-- `npm run dev` - Start MkDocs development server (live-reload at http://localhost:8000)
+
+- `npm run dev` - Start MkDocs development server (live-reload at <http://localhost:8000>)
 - `npm run build` - Build static documentation site to `site/` directory
 - `npm run preview` - Preview built site locally
 - `npm run deploy` - Deploy documentation to GitHub Pages

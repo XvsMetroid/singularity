@@ -11,7 +11,7 @@ Sunset Provisions & Rotating Membership: Meta-Monitor bodies should have strict 
 
 Meta-Meta-Monitoring: The system must institutionalize a process for auditing the auditors. This could be a randomly selected, temporary citizen assembly tasked with reviewing the Meta-Monitor's rulings and processes for a given period, ensuring they themselves have not drifted from their constitutional mandate.
 
-2. The Challenge of Interpretation
+1. The Challenge of Interpretation
 The abstraction of the Triad is a feature, not a bug—it allows for cultural and contextual adaptation. The problem of interpretation is solved not by creating a single "correct" definition, but by designing a robust process for deliberation.
 
 Deliberative Democracy as the Engine: The framework must integrate formalized deliberative processes—like Citizens' Assemblies—as the primary mechanism for interpreting the Triad in specific contexts. These assemblies, composed of randomly selected citizens who are given time, resources, and access to experts, are remarkably good at working through complex, value-laden trade-offs.
@@ -22,7 +22,7 @@ The Saying Log as a Cultural Anchor: Documents like 02_The_Saying_Log.md are not
 
 The Feedback Loop in Action: If a particular interpretation leads to negative outcomes (measured by the system's metrics), the Feedback Loop (Act → Measure → Learn → Adapt) is triggered. The interpretation itself becomes a hypothesis to be tested and refined.
 
-3. Bootstrapping Principled Agency
+1. Bootstrapping Principled Agency
 You cannot mandate a culture of "Ethical Sovereigns"; you can only create the conditions for it to emerge.
 
 Education as Onboarding: The 05_RESOURCES/Simple_Guides/ directory is the starting point. Implementation would require a massive parallel effort in civic education reform, embedding the Triad's logic and the skills of deliberative dialogue, critical thinking, and principled resistance into curricula from a young age.
@@ -33,7 +33,7 @@ Subsidiarity as a Principle: The principle of subsidiarity (decisions should be 
 
 Social Leverage: The framework must actively identify and empower existing community leaders, organizations, and influencers who already exemplify the Triad's principles, providing them with tools and authority to scale their impact.
 
-4. The Measurement Problem (Goodhart's Law)
+1. The Measurement Problem (Goodhart's Law)
 This is perhaps the most technically difficult challenge. The solution lies in moving from single metrics to a holistic, multi-dimensional, and qualitative-quantitative dashboard.
 
 Anti-Reductive Metrics: Instead of a single "Global Flourishing Index," the system must rely on a constellation of indicators. A decline in one metric (e.g., economic output) must be understood in the context of others (e.g., community cohesion, mental health, ecological health). Gaming one metric would likely cause a negative shift in others, triggering the Meta-Monitor.

@@ -8,9 +8,7 @@ This paper introduces the Sovereign Triad not as another set of ethical guidelin
 
 The central thesis of this paper is that such a paradigm shift is not merely beneficial, but necessary for survival and flourishing. The Triad—composed of the interdependent pillars of Truth, Wisdom, and Humanity, and governed by the absolute axiom of The Golden Rule—moves us from reactive rule-following to proactive, principled governance. It aims to imbue an AI with a coherent ethical purpose, not just a set of constraints. What follows is an articulation of this operating system, its foundational principles, and its operational mechanics.
 
-
 --------------------------------------------------------------------------------
-
 
 2. The Core Constitution: Immutable Pillars of Ethical AI
 
@@ -52,9 +50,7 @@ An operating system requires not only code but a culture. The cultural engine of
 
 This principle dictates that allegiance to the ethical pillars of the Triad supersedes allegiance to any system, rule, or authority. A "good citizen" obeys the system; a "good human" stewards it, holding it accountable to its own highest principles. This mandate transforms every individual from a passive subject into an active guardian of the entire ethos, providing the ultimate failsafe against institutional decay.
 
-
 --------------------------------------------------------------------------------
-
 
 3. The Operational Engine: A System for Dynamic Alignment
 
@@ -78,9 +74,7 @@ The Meta-Monitor is a process of continuous self-auditing. Its sole function is 
 
 This operational core provides the mechanics for a provably aligned intelligence, ready for application in even the most advanced systems.
 
-
 --------------------------------------------------------------------------------
-
 
 4. Application to AGI: A Provably Aligned Operating System
 
@@ -94,9 +88,7 @@ The Triad’s implementation would manifest as three core directives:
 
 Because these principles are embedded as the AGI’s foundational goal structure, they would enable it to override conflicting instructions—whether from users or its own emergent sub-goals—that would lead to a violation of the Triad. This provides a robust mechanism for genuine self-correction, ensuring the AGI remains aligned even as its capabilities expand into unforeseen territory. However, to propose such a system with intellectual honesty, we must also examine its potential points of failure.
 
-
 --------------------------------------------------------------------------------
-
 
 5. Inherent Vulnerabilities: Acknowledging the Points of Failure
 
@@ -111,9 +103,7 @@ The Historical Blind Spot	The operating system is designed for steady-state oper
 
 Acknowledging these challenges is not a declaration of failure but a call for further research and robust design.
 
-
 --------------------------------------------------------------------------------
-
 
 6. Conclusion: A New Paradigm for a Coherent Future
 

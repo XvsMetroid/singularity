@@ -9,9 +9,6 @@ A comprehensive glossary defining all key terms for newcomers to the Axiom Engin
 
 ## Terms
 
-- [Term]: [Definition]
-- [Term]: [Definition]
-
 ---
 
 *Update this file as new concepts are introduced.*

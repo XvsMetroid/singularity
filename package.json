@@ -26,5 +26,8 @@
     "axiom-engine"
   ],
   "author": "XvsMetroid",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "markdownlint-cli": "^0.45.0"
+  }
 }

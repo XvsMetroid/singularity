@@ -20,6 +20,7 @@ This directory hosts community-driven Request for Comments (RFC) documents for p
 ## Contributing
 
 To submit an RFC:
+
 1. Create a new markdown file with sequential numbering
 2. Include metadata tags at the top
 3. Provide clear problem statement and proposed solution
