@@ -4,15 +4,18 @@
 
 ---
 
-# The Axiom Engine: A Philosophical Operating System
+## A Philosophical Operating System
 
 tags: [overview, axiom-engine, philosophical-framework, triad, truth, wisdom, humanity, onboarding, project-introduction]
 
-*A generative framework for building societies capable of continuous ethical progression, grounded in Truth, Wisdom, and Humanity.*
+*A generative framework for building societies capable of continuous ethical progression, grounded in Truth, Wisdom, and
+Humanity.*
 
 ## Elevator Pitch
 
-Social entropy threatens the integrity and adaptability of human systems. The Axiom Engine offers a solution: an adaptive, principle-based architecture that enables continuous ethical progression through its fractal, feedback-driven design.
+Social entropy threatens the integrity and adaptability of human systems. The Axiom Engine offers a solution: an
+adaptive, principle-based architecture that enables continuous ethical progression through its fractal, feedback-driven
+design.
 
 ## Get Started
 
