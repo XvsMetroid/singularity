@@ -15,15 +15,16 @@ Thank you for your interest in contributing! This project welcomes collaboration
 ## Practical Usage Examples
 
 - **Adding a new philosophical document:**
- 	- Use the template in `/docs/`.
- 	- Add a summary and metadata tags at the top.
- 	- Update `docs/index.md`.
+	- Use the template in `/docs/`.
+	- Add a summary and metadata tags at the top.
+	- Update `docs/index.md`.
 - **Submitting a case study:**
- 	- Use the template in `/case-studies/`.
- 	- Add context and lessons learned.
+	- Use the template in `/case-studies/`.
+	- Add context and lessons learned.
 - **Proposing a framework or blueprint:**
- 	- Use the template in `/proposals/`.
- 	- Reference relevant Triad principles.
+	- Use the template in `/proposals/`.
+	- Reference relevant Triad principles.
+
 
 ## Pull Requests
 

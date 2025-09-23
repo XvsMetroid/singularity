@@ -12,7 +12,6 @@ This is a template for documenting case studies that demonstrate the Act-Measure
 ## Template Structure
 
 ### Overview
-
 - **Scenario Description**: [Detailed description of the situation/challenge]
 - **Stakeholders**: [Key parties involved]
 - **Objectives**: [What the case study aims to demonstrate]
@@ -26,7 +25,6 @@ This is a template for documenting case studies that demonstrate the Act-Measure
 **Adapt** → [How actions were modified based on learning]
 
 ### Outcome
-
 - **Results**: [Quantitative and qualitative outcomes]
 - **Lessons Learned**: [Key insights for framework application]
 - **Framework Validation**: [How this supports or refines the Triad]
