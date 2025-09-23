@@ -1,7 +1,8 @@
 
 # AI Agent Guide
 
-This guide is for AI agents collaborating in the repository. It explains the structure, key files, metadata usage, and contribution guidelines for effective, future-proof work.
+This guide is for AI agents collaborating in the repository. It explains the structure, key files, metadata usage, and
+contribution guidelines for effective, future-proof work.
 
 ## Repository Structure
 

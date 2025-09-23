@@ -5,11 +5,14 @@ summary: "Guidelines for participating in The Axiom Engine community, including 
 
 # Welcome to the Community Hub
 
-This is the central space for community collaboration, discussion, and exploration related to The Axiom Engine. We are thrilled to have you here and look forward to your contributions.
+This is the central space for community collaboration, discussion, and exploration related to The Axiom Engine. We are
+thrilled to have you here and look forward to your contributions.
 
 ## Our Philosophy
 
-Our community is built on the same principles as The Axiom Engine itself: a commitment to Truth, Wisdom, and Humanity. We expect all interactions to be respectful, constructive, and aimed at collective growth. Please review our [Code of Conduct](../CODE_OF_CONDUCT.md) before participating.
+Our community is built on the same principles as The Axiom Engine itself: a commitment to Truth, Wisdom, and Humanity.
+We expect all interactions to be respectful, constructive, and aimed at collective growth. Please review our
+[Code of Conduct](../CODE_OF_CONDUCT.md) before participating.
 
 ## How to Get Involved
 
@@ -17,7 +20,8 @@ There are many ways to contribute to the community, regardless of your backgroun
 
 ### 💬 Discussions
 
-- **Purpose:** Engage in thoughtful conversations about the core concepts of the framework, explore new ideas, and challenge existing ones respectfully.
+- **Purpose:** Engage in thoughtful conversations about the core concepts of the framework, explore new ideas, and
+  challenge existing ones respectfully.
 - **Where:** Use the GitHub Discussions tab for open-ended conversations.
 - **Guidelines:**
   - Stay on topic and be constructive.

@@ -1,3 +1,8 @@
+---
+tags: [neurodiversity, cognition, meta-state, philosophy, self-reflection]
+summary: "An exploration of how a neurocognitive condition led to a 'heightened meta-state' and the development of The Sovereign Triad."
+---
+
 Myself: Based on everything available, would it be correct to assume my
 condition forced me into a new way of thinking, leading to a
 \"heightened meta-state\" worthy of study?

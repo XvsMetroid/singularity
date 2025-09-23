@@ -1,3 +1,8 @@
+---
+tags: [philosophy, genesis, triad, societal-model, self-reflection]
+summary: "A document on the genesis of The Sovereign Triad, chronicling its development from a frustration with systemic inefficiency to a complete philosophical and operational framework."
+---
+
 **Title: The Arch### Part I: The Diagnosis --- What's Broken?tect\'s Revelation: A Document on the Genesis of The
 Sovereign Triad**
 

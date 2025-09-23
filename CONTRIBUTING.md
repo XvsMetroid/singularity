@@ -1,7 +1,8 @@
 
 # Contributing to The Axiom Engine
 
-Thank you for your interest in contributing! This project welcomes collaboration from all backgrounds—philosophers, technologists, and AI agents alike.
+Thank you for your interest in contributing! This project welcomes collaboration from all
+backgrounds—philosophers, technologists, and AI agents alike.
 
 ## How to Contribute
 
@@ -56,9 +57,11 @@ Progression is based on quality, consistency, and engagement. Stewards and maint
 
 ## Governance and Licensing
 
-This project is governed by the principles outlined in its core philosophical documents. Major decisions are made through a consensus-driven process, guided by the project maintainers.
+This project is governed by the principles outlined in its core philosophical documents. Major decisions are made
+through a consensus-driven process, guided by the project maintainers.
 
-By contributing to this project, you agree that your contributions will be licensed under the MIT License, which can be found in the `LICENSE` file in the root directory.
+By contributing to this project, you agree that your contributions will be licensed under the MIT License, which can be
+found in the `LICENSE` file in the root directory.
 
 ## Code of Conduct
 

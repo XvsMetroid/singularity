@@ -1,3 +1,8 @@
+---
+tags: [philosophy, introduction, triad, life-compass]
+summary: "An introduction to the Sovereign Triad as a personal philosophy and a compass for navigating a complex world."
+---
+
 A Compass for Life: An Introduction to the Sovereign Triad
 
 1. Introduction: Finding Your Bearings in a Complex World

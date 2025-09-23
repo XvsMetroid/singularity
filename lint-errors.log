@@ -1,0 +1,4 @@
+
+> axiom-engine@1.0.0 lint
+> markdownlint '**/*.md' --ignore node_modules
+

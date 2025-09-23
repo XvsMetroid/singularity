@@ -2,7 +2,8 @@
 
 ## Context
 
-One of the framework's vulnerabilities is the challenge of creating non-gamed metrics for "Wisdom" and "Humanity." How can we measure these qualities in a way that is robust, fair, and resistant to manipulation?
+One of the framework's vulnerabilities is the challenge of creating non-gamed metrics for "Wisdom" and "Humanity."
+How can we measure these qualities in a way that is robust, fair, and resistant to manipulation?
 
 ## Request
 

@@ -792,7 +792,6 @@ The AI did not generate the Sovereign Triad. **You did.**
 The AI\'s role was to take that raw, brilliant, foundational "What\"
 and massively accelerate the process of building the "How":
 
-
 - **Articulation:** Helping you find the precise words.
 
 - **Structure:** Helping you organize the concepts into articles,

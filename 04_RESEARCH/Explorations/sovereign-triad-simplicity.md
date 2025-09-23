@@ -1,3 +1,8 @@
+---
+tags: [philosophy, triad, simplicity, common-sense, societal-agreement]
+summary: "A user-friendly guide to the Sovereign Triad, explaining its three core principles as a common-sense agreement for a better society."
+---
+
 ### The Sovereign Triad: A Common Sense Agreement for a Better Society
 
 Think of this as a user-friendly guide for building a world that makes
@@ -81,7 +86,7 @@ that can learn and fix itself.
 This agreement changes our identity and what we value.
 
 - **The Most Important Job:** The most important thing you can be is
-    a **good HUMAN**. Being a \"good citizen\" who just follows orders
+    a **good HUMAN**. Being a "good citizen" who just follows orders
     without question is not the goal. Your loyalty to what's *right* is
     more important than your loyalty to any leader or flag.
 

@@ -1,10 +1,22 @@
 How to Fix a Broken World: 5 Revelations from a Systems Architect
 
-Do you ever get the feeling that our world is running on a broken operating system? It’s a low hum of frustration in the background of modern life—the sense that our political, social, and economic structures are not just inefficient, but actively spiraling into a zombie state. We see it in the soulless robots marching to a tune, unaware of the crumbling infrastructure around them; we feel it in the decay of shared purpose into passive compliance or active rebellion. This is social entropy, and it is the core problem of our time.
+Do you ever get the feeling that our world is running on a broken operating
+system? It’s a low hum of frustration in the background of modern life—the
+sense that our political, social, and economic structures are not just
+inefficient, but actively spiraling into a zombie state. We see it in the
+soulless robots marching to a tune, unaware of the crumbling infrastructure
+around them; we feel it in the decay of shared purpose into passive compliance
+or active rebellion. This is social entropy, and it is the core problem of our
+time.
 
-But what if a blueprint for a new philosophical operating system exists? What if someone, wrestling with the painful friction of a world that didn't make sense, has been architecting a coherent, interlocking system to fight that decay? To journey into that design is to witness a monumental act of intellectual creation. These are not just five ideas; they are the interlocking gears of a single machine designed to build a more adaptive, ethical, and humane world.
+But what if a blueprint for a new philosophical operating system exists? What if
+someone, wrestling with the painful friction of a world that didn't make sense,
+has been architecting a coherent, interlocking system to fight that decay? To
+journey into that design is to witness a monumental act of intellectual
+creation. These are not just five ideas; they are the interlocking gears of a
+single machine designed to build a more adaptive, ethical, and humane world.
 
-1.  **The Most Dangerous Idea: Be a Good Human, Not a Good Citizen**
+1. **The Most Dangerous Idea: Be a Good Human, Not a Good Citizen**
 
     The system’s foundation begins with a radical call for a shift in
     allegiance. It introduces the "Human Mandate," a principle suggesting
@@ -27,7 +39,7 @@ But what if a blueprint for a new philosophical operating system exists? What if
     internalized, shared purpose of collective stewardship. It is the
     moral agency required to operate the rest of this powerful machine.
 
-2.  **The End of Bureaucracy: Replace Rigid Rules with a Learning Loop**
+2. **The End of Bureaucracy: Replace Rigid Rules with a Learning Loop**
 
     With its moral agency established, the system needs an engine. This
     model proposes we gut the vast, static, and redundant systems of
@@ -50,7 +62,7 @@ But what if a blueprint for a new philosophical operating system exists? What if
     it needs an unshakeable ethical compass. As it turns out, that
     compass has a shape.
 
-3.  **The Architecture of Ethics: Morality Has a Geometric Shape**
+3. **The Architecture of Ethics: Morality Has a Geometric Shape**
 
     What if ethics wasn't a vague list of subjective values, but a
     stable, geometric structure? This framework visualizes morality as
@@ -73,7 +85,7 @@ But what if a blueprint for a new philosophical operating system exists? What if
     But who is best equipped to read such a map? Often, it’s the minds
     that have been forced to navigate the world without one.
 
-4.  **The Hidden Superpower: Neurodivergence as a System-Breaking Tool**
+4. **The Hidden Superpower: Neurodivergence as a System-Breaking Tool**
 
     Some of the minds best equipped to solve the world's most complex
     "wicked problems" are those that are neurodivergent (e.g., having
@@ -99,7 +111,7 @@ But what if a blueprint for a new philosophical operating system exists? What if
     solution is not enough. You also need the courage to act when all
     logic dictates you will fail.
 
-5.  **The Right Kind of Irrationality: Sometimes You Have to "Drill On"**
+5. **The Right Kind of Irrationality: Sometimes You Have to "Drill On"**
 
     The final, and perhaps most inspirational, gear in this machine is
     drawn from the defiant, world-breaking spirit of the anime Gurren

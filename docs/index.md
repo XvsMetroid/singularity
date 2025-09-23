@@ -1,7 +1,8 @@
 
 # Documentation Index
 
-This index provides a map of the core philosophical documents and supporting materials for The Axiom Engine / Sovereign Triad project. It is designed for both humans and AI agents.
+This index provides a map of the core philosophical documents and supporting materials for The Axiom Engine / Sovereign
+Triad project. It is designed for both humans and AI agents.
 
 ## Metadata Guidance
 

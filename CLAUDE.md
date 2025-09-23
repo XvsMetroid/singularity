@@ -4,7 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-This is **The Axiom Engine** - a philosophical framework development project, not a traditional software repository. It focuses on developing principles for ethical governance and societal systems based on the "Sovereign Triad" (Truth, Wisdom, Humanity).
+This is **The Axiom Engine** - a philosophical framework development project, not a traditional software repository.
+It focuses on developing principles for ethical governance and societal systems based on the "Sovereign Triad"
+(Truth, Wisdom, Humanity).
 
 ## Navigation Structure
 

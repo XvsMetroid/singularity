@@ -4,7 +4,9 @@ All participants in The Axiom Engine project are expected to uphold the highest 
 
 ## Our Pledge
 
-We pledge to make participation in our project a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
+We pledge to make participation in our project a harassment-free experience for everyone, regardless of age, body size,
+disability, ethnicity, gender identity, level of experience, nationality, personal appearance, race, religion, or
+sexual identity and orientation.
 
 ## Our Standards
 
@@ -15,4 +17,5 @@ We pledge to make participation in our project a harassment-free experience for 
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the maintainers at any time. Violations may result in removal from the project.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the maintainers at any time.
+Violations may result in removal from the project.

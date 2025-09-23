@@ -7,7 +7,8 @@ summary: "Framework for analyzing historical patterns of entropy and corrective 
 
 **Status:** Analytical framework for historical case studies
 
-This document provides a framework for analyzing historical events as patterns of entropy and antithesis, demonstrating how the Sovereign Triad principles apply to historical analysis.
+This document provides a framework for analyzing historical events as patterns of entropy and antithesis, demonstrating
+how the Sovereign Triad principles apply to historical analysis.
 
 ## Conceptual Framework
 

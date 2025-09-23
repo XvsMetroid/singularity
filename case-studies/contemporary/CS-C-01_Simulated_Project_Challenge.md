@@ -7,7 +7,8 @@ summary: "Template for contemporary case studies demonstrating the Act-Measure-L
 
 **Status:** Template for future case studies
 
-This is a template for documenting case studies that demonstrate the Act-Measure-Learn-Adapt feedback loop in contemporary scenarios.
+This is a template for documenting case studies that demonstrate the Act-Measure-Learn-Adapt feedback loop in
+contemporary scenarios.
 
 ## Template Structure
 

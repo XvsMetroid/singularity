@@ -4,7 +4,8 @@ tags: [rfc, community, collaboration, proposals, feedback]
 
 ## Purpose
 
-This directory hosts community-driven Request for Comments (RFC) documents for proposing and discussing changes, improvements, and applications of The Axiom Engine framework.
+This directory hosts community-driven Request for Comments (RFC) documents for proposing and discussing changes,
+improvements, and applications of The Axiom Engine framework.
 
 ## RFC Process
 

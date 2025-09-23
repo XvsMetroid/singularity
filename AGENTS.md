@@ -4,7 +4,9 @@ tags: [agents, ai-instructions, repository-guidelines, ai-collaboration, project
 
 ## Repository Overview
 
-This is **The Axiom Engine** - a philosophical framework development project, not a traditional software repository. It focuses on developing principles for ethical governance and societal systems based on the "Sovereign Triad" (Truth, Wisdom, Humanity).
+This is **The Axiom Engine** - a philosophical framework development project, not a traditional software repository.
+It focuses on developing principles for ethical governance and societal systems based on the "Sovereign Triad"
+(Truth, Wisdom, Humanity).
 
 ## Navigation Structure
 
@@ -51,4 +53,5 @@ The framework centers on:
 - `npm run deploy` - Deploy documentation to GitHub Pages
 - `npm run install` - Install Python dependencies (MkDocs)
 
-**Note**: This is primarily a documentation repository. There are no traditional lint or test commands. Work involves reading, writing, and organizing markdown files according to the established conventions.
+**Note**: This is primarily a documentation repository. There are no traditional lint or test commands. Work involves
+reading, writing, and organizing markdown files according to the established conventions.
