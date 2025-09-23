@@ -3,26 +3,11 @@
   "version": "1.0.0",
   "description": "The Axiom Engine - A philosophical framework for ethical governance",
   "scripts": {
-    "install": "pip install -r requirements.txt && npm install -D markdownlint-cli",
-    "dev": "mkdocs serve",
-    "build": "mkdocs build",
-    "preview": "python -m http.server 8000 --directory site",
-    "deploy": "mkdocs gh-deploy",
-    "lint": "markdownlint '**/*.md' --ignore node_modules --ignore site",
-    "lint:fix": "markdownlint '**/*.md' --ignore node_modules --ignore site --fix",
-    "lint:advanced": "markdownlint-cli2 '**/*.md' '!node_modules' '!site'",
-    "lint:language": "alex '**/*.md' --ignore node_modules --ignore site",
-    "lint:text": "textlint '**/*.md' --ignore node_modules --ignore site",
-    "lint:links": "markdown-link-check '**/*.md' --ignore node_modules --ignore site",
-    "lint:yaml": "yaml-lint framework.yaml",
-    "lint:all": "npm run lint && npm run lint:language && npm run lint:yaml",
-    "diagrams": "mmdc -i '07_VISUALS/*.mermaid.md' -o '07_VISUALS/diagrams/'",
-    "toc": "doctoc '**/*.md' --ignore node_modules --ignore site",
+    "lint": "markdownlint '**/*.md' --ignore node_modules",
+    "lint:fix": "npm run lint -- --fix",
     "test": "python scripts/validate_framework.py",
-    "new": "python scripts/scaffold.py",
-    "search": "python scripts/search.py",
     "summary": "python scripts/summary.py",
-    "prepare": "husky install"
+    "new": "python scripts/scaffold.py"
   },
   "repository": {
     "type": "git",
@@ -37,22 +22,7 @@
   "author": "XvsMetroid",
   "license": "MIT",
   "devDependencies": {
-    "@commitlint/cli": "^19.8.1",
-    "@commitlint/config-conventional": "^19.8.1",
-    "@mermaid-js/mermaid-cli": "^11.10.1",
-    "ajv": "^8.17.1",
-    "alex": "^11.0.1",
-    "doctoc": "^2.2.1",
-    "husky": "^9.1.7",
-    "js-yaml": "^4.1.0",
-    "lint-staged": "^16.2.0",
-    "markdown-link-check": "^3.13.7",
-    "markdownlint-cli": "^0.45.0",
-    "markdownlint-cli2": "^0.18.1",
-    "reading-time": "^1.5.0",
-    "textlint": "^15.2.2",
-    "textlint-rule-terminology": "^5.2.15",
-    "textlint-rule-write-good": "^2.0.0",
-    "yaml-lint": "^1.7.0"
+    "markdownlint-cli": "^0.45.0"
   }
 }
+
