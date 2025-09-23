@@ -12,21 +12,25 @@ This document provides a framework for analyzing historical events as patterns o
 ## Conceptual Framework
 
 ### Historical Entropy
+
 Historical entropy refers to periods when societies experience:
+
 - Breakdown of truth-seeking institutions
 - Loss of practical wisdom in governance
 - Dehumanization and loss of dignity
 - System degradation and institutional decay
 
 ### Antithesis Response
+
 Corrective movements that restore balance through:
+
 - Truth → Restoration of evidence-based reality
 - Wisdom → Renewal of ethical governance
 - Humanity → Reassertion of human dignity
 
 ## Analysis Template
 
-### For Historical Case Studies:
+### For Historical Case Studies
 
 1. **Context Setting**
    - Time period and geographical scope

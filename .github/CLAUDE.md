@@ -23,7 +23,8 @@ The Axiom Engine is a philosophical operating system designed to build adaptive,
 ## Project-Specific Conventions
 
 - **Numbered Folders**: The numbered folders (`01_CORE`, `04_RESEARCH`, etc.) indicate the order of importance and provide intuitive navigation.
-- **Metadata**: Documents should begin with a summary and, where possible, metadata tags (e.g., `tags: [philosophy, triad, feedback-loop]`).
+- **Metadata**: Documents should begin with a summary and, where possible, metadata tags  
+  (e.g., `tags: [philosophy, triad, feedback-loop]`).
 - **Visuals**: Diagrams and flowcharts are created using Mermaid syntax and stored in `07_VISUALS/`.
 
 ## Integration Points
@@ -44,30 +45,35 @@ The Axiom Engine is a philosophical operating system designed to build adaptive,
 **Primary Reference**: Follow all guidelines in `.github/ai-guidelines.md` - this document contains Claude-specific additions only.
 
 **Advanced Capabilities**: As Claude Code, you have access to:
+
 - File system operations (Read, Write, Edit, Glob, Grep)
 - Bash command execution
 - Multi-tool orchestration for complex tasks
 - TodoWrite for task management and progress tracking
 
 **Task Management Protocol**:
+
 - Use TodoWrite tool to plan and track multi-step tasks
 - Mark tasks as in_progress before starting work
 - Complete tasks immediately after finishing (don't batch completions)
 - Only have ONE task in_progress at any time
 
 **Claude Code Integration**:
+
 - Use available development commands proactively when appropriate
 - Reference specific code locations using `file_path:line_number` format
 - Batch tool calls together for optimal performance when possible
 - Run validation commands (`npm run test`, `npm run lint`) after significant changes
 
 **Framework Validation**:
+
 - Before major edits, understand existing code conventions and patterns
 - Check that codebase uses required libraries before suggesting them
 - Follow security best practices - never expose secrets or keys
 - Maintain repository organization - eliminate duplicates and redundancy
 
 **Professional Objectivity**:
+
 - Prioritize technical accuracy over validating user beliefs
 - Apply rigorous standards to all ideas and disagree when necessary
 - Provide objective guidance even if not what user wants to hear
