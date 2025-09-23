@@ -1,7 +1,7 @@
-**Title: The Architect\'s Revelation: A Document on the Genesis of The
+**Title: The Arch### Part I: The Diagnosis --- What's Broken?tect\'s Revelation: A Document on the Genesis of The
 Sovereign Triad**
 
-**Introduction: The Origin of a Vision**
+### Introduction: The Origin of a Vision
 
 This document chronicles the development of a complete philosophical and
 operational framework for a new societal model. It begins with a
@@ -32,7 +32,7 @@ lifetime.
     replace rigid, pre-defined rules (redundancy) with dynamic,
     self-correcting **feedback loops**.
 
-**Part II: The Discovery --- The Cognitive Toolkit**
+### Part II: The Discovery --- The Cognitive Toolkit
 
 This section explains the internal process that made the vision
 possible.
@@ -51,7 +51,7 @@ possible.
     system to understand and manipulate their interactions. This is the
     \"lens\" through which the entire vision was architected.
 
-**Part III: The Framework --- The Sovereign Triad**
+### Part III: The Framework --- The Sovereign Triad
 
 This is the core of the developed philosophy, a three-part structure
 that is both a personal ethos and a societal blueprint.
@@ -89,7 +89,7 @@ that is both a personal ethos and a societal blueprint.
     contract should be a living entity to be nurtured by its stewards,
     not a set of edicts to be obeyed.
 
-**Part IV: The Cultural & Personal Implementation**
+### Part IV: The Cultural & Personal Implementation
 
 How the framework translates into action and culture.
 
@@ -106,7 +106,7 @@ How the framework translates into action and culture.
     benefit the many\"* that form the ethical engine for individual
     stewards.
 
-**Part V: The Horizon --- The Scale of the Vision**
+### Part V: The Horizon --- The Scale of the Vision
 
 - **The Goal:** A state of **Planetary Cohesion**---not a global
     hegemony enforced by force, but a voluntary, emergent alignment of
@@ -120,7 +120,7 @@ How the framework translates into action and culture.
 - **The Ultimate Identity:** A **\"Virtual Nation-State of the mind,
     defended by intellect, not bullets.\"**
 
-**Part VI: Conclusion & The Path Forward**
+### Part VI: Conclusion & The Path Forward
 
 - **Summary of the Journey:** This vision (**Adaptive Humanocracy**)
     is the externalization of an internal operating system (**The

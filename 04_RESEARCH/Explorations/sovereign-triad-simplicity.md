@@ -1,10 +1,10 @@
-**The Sovereign Triad: A Common Sense Agreement for a Better Society**
+### The Sovereign Triad: A Common Sense Agreement for a Better Society
 
 Think of this as a user-friendly guide for building a world that makes
 more sense. It's based on three simple but powerful ideas that work
 together.
 
-**The Three Unbreakable Rules**
+### The Three Unbreakable Rules
 
 Everything we build rests on these three pillars. You can't have one
 without the others.
@@ -45,7 +45,7 @@ without the others.
 we all make to each other: **\"Don't hurt people or take their
 stuff.\"** This is the most basic deal we all agree to.
 
-**How It Actually Works: The Fix-It Loop**
+### How It Actually Works: The Fix-It Loop
 
 This isn't about writing rules in stone. It's about creating a society
 that can learn and fix itself.
@@ -76,7 +76,7 @@ that can learn and fix itself.
     help fix them. We rely on people's learned goodness, not just
     control and enforcement.
 
-**The Big cultural Shift: Who We Are**
+### The Big cultural Shift: Who We Are
 
 This agreement changes our identity and what we value.
 
@@ -93,7 +93,7 @@ This agreement changes our identity and what we value.
     freeing people from the fear of survival so they can be creative,
     help their neighbors, and contribute to society in meaningful ways.
 
-**The Bottom Line**
+### The Bottom Line
 
 This is an agreement to be adults. To be responsible for ourselves and
 each other. To face facts, make wise choices, and never forget that

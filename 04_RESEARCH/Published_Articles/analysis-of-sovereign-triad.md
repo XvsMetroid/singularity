@@ -16,7 +16,7 @@ a higher-order self-correction process. This paper delineates the
 framework\'s ontological foundations, its epistemological mechanics, and
 its axiological commitments.
 
-**I. Ontological Foundation: The Triadic Leverage Principle**
+### I. Ontological Foundation: The Triadic Leverage Principle
 
 At its core, the Triad is predicated on a specific ontological claim
 about complexity: that systems of high complexity can be most
@@ -37,7 +37,7 @@ heuristic.
     This makes the framework a practical tool for intervention, not just
     analysis.
 
-**II. The Axiological Core: The Immutable Pillars**
+### II. The Axiological Core: The Immutable Pillars
 
 The Triad establishes a three-pillar value system that serves as the
 non-negotiable ethical foundation for all subsequent systems. These
@@ -132,7 +132,7 @@ realizing its axiological core.
         fostering critical thinking and moral reasoning to prevent
         authoritarian capture and foster bottom-up resilience.
 
-**IV. The Cultural-Paradigmatic Shift**
+### IV. The Cultural-Paradigmatic Shift
 
 The framework necessitates a fundamental rescripting of individual and
 collective identity.
@@ -159,7 +159,7 @@ collective identity.
   - This is a pragmatic necessity for achieving the level of
         engagement the \"Entity-Based Contract\" requires.
 
-**V. Critical Analysis and Potential Points of Failure**
+### V. Critical Analysis and Potential Points of Failure
 
 A professional presentation must acknowledge the framework\'s own
 vulnerabilities:
@@ -182,7 +182,7 @@ vulnerabilities:
     or asymmetric threats (e.g., a rapidly evolving pandemic or AI
     threat).
 
-**Conclusion: The Triad as a Generative Framework**
+### Conclusion: The Triad as a Generative Framework
 
 The Sovereign Triad does not propose a utopian end-state. Instead, it
 offers a **generative framework**---a philosophical operating

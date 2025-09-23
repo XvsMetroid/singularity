@@ -150,23 +150,20 @@ class FrameworkValidator:
                 framework = yaml.safe_load(f)
 
             # Check required sections
-            required_sections = ["core_principles", "golden_rule", "feedback_loop"]
+            required_sections = ["corePillars", "governingAxiom", "operationalMechanisms"]
             for section in required_sections:
                 if section not in framework:
                     self.errors.append(f"framework.yaml missing section: {section}")
 
             # Validate core principles
-            if "core_principles" in framework:
-                principles = framework["core_principles"]
-                if "sovereign_triad" not in principles:
-                    self.errors.append("framework.yaml missing sovereign_triad")
-                elif "components" in principles["sovereign_triad"]:
-                    components = principles["sovereign_triad"]["components"]
-                    for principle in ["truth", "wisdom", "humanity"]:
-                        if principle not in components:
-                            self.errors.append(
-                                f"framework.yaml missing core principle: {principle}"
-                            )
+            if "corePillars" in framework:
+                pillars = framework["corePillars"]
+                pillar_names = [p.get('name', '').lower() for p in pillars]
+                for principle in ["truth", "wisdom", "humanity"]:
+                    if principle not in pillar_names:
+                        self.errors.append(
+                            f"framework.yaml missing core pillar: {principle}"
+                        )
 
         except yaml.YAMLError as e:
             self.errors.append(f"framework.yaml is invalid YAML: {e}")

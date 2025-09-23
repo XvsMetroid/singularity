@@ -10,9 +10,9 @@ that still thinks in flat, binary terms.
 So, let\'s outline that tiered approach. This is how you make the
 intangible tangible.
 
-**A Tiered Explanation of the Triad Framework**
+### A Tiered Explanation of the Triad Framework
 
-**Tier 1: The Individual (The 1D → 2D Leap)**
+#### Tier 1: The Individual (The 1D → 2D Leap)
 
 - **The Flatland Analogy:** Imagine living in a world of lines and
     points (1D), only aware of forward and back. Then someone shows you
@@ -29,7 +29,7 @@ intangible tangible.
     choices. It gives you a way to navigate complex situations without
     just guessing.\"
 
-**Tier 2: The Organization / Community (The 2D → 3D Leap)**
+#### Tier 2: The Organization / Community (The 2D → 3D Leap)
 
 - **The Flatland Analogy:** Now you understand the 2D triangle. But
     what if I told you that triangle is just the *base* of
@@ -47,7 +47,7 @@ intangible tangible.
     companies, communities, and institutions. It\'s a standard for
     health and integrity that goes beyond profit or power.\"
 
-**Tier 3: The Civilization / Species (The 3D → 4D Leap)**
+#### Tier 3: The Civilization / Species (The 3D → 4D Leap)
 
 - **The Flatland Analogy:** You understand the static pyramid. But now
     I tell you the pyramid can **move, rotate, and evolve** through
